@@ -1,16 +1,24 @@
-echo "Downloading"
-
+Name=ModLoader
 DownloadURL=https://github.com/CoreBytee/ModLoader/archive/main.zip
 
-curl -L $DownloadURL > loader.zip
+if test -f "./$Name"; then
+        echo removing old..
+        rm $Name
+    fi
 
-unzip loader.zip
+echo "Downloading"
+
+
+
+curl -L $DownloadURL > Loader.zip
+
+unzip Loader.zip
 
 echo "Removing ZIP"
-rm loader.zip
+rm Loader.zip
 
 echo "Renaming"
-mv ModLoader-main/ ModLoader
+mv ModLoader-main/ $Name
 
 echo "Done"
 
