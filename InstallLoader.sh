@@ -24,7 +24,7 @@ echo "Done"
 
 read -p "Wil je de Loader openen? (y/n):" -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]] then
-    echo Okey!
+    echo "Okey!"
 
 
     ./ModLoader/Open.sh
