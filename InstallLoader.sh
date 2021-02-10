@@ -6,5 +6,6 @@ curl -L $DownloadURL > loader.zip
 
 unzip loader.zip
 rm loader.zip
+mv ModLoader-main/ ModLoader
 
 echo Done
