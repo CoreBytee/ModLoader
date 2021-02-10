@@ -26,7 +26,10 @@ read -p "Wil je de Loader openen? (y/n):" -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]] then
     echo "Okey!"
 
+    cd ModLoader/
 
-    ./ModLoader/Open.sh
+    mkdir Luvit
+
+    ./Open.sh
 
 fi
