@@ -18,7 +18,7 @@ echo "Removing ZIP"
 rm Loader.zip
 
 echo "Renaming"
-mv ModLoader-main/ $Name
+mv ModLoader-main/ ModLoader
 
 echo "Done"
 
