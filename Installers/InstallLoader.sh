@@ -20,4 +20,9 @@ rm Loader.zip
 echo "Renaming"
 mv ModLoader-main/ ModLoader
 
+cd ModLoader
+mkdir Luvit
+
+pwd
+
 echo "Done"
