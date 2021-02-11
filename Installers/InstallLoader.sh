@@ -37,3 +37,7 @@ curl -L https://github.com/luvit/lit/raw/master/get-lit.sh | sh
 sleep 3
 
 echo "Done"
+
+cd ..
+
+./Open-Mac.sh
