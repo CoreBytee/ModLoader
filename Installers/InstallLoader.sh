@@ -22,7 +22,8 @@ mv ModLoader-main/ ModLoader
 
 cd ModLoader
 mkdir Luvit
+cd Luvit
 
-pwd
+curl -L https://github.com/luvit/lit/raw/master/get-lit.sh | sh
 
 echo "Done"
