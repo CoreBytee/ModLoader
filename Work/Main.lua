@@ -14,12 +14,13 @@ print("Dit is een makkelijk process, het duurt niet lang!")
 
 print()
 
-Wait(1500)
+--Wait(1500)
 
 print("INFO:")
 print("Type: 'help'")
 
 Read = io.read
+Write = io.write
 
 local Commands = {
 
@@ -37,13 +38,28 @@ local Commands = {
 
 }
 
+RenewCursor = true
+
 while true do
 
-    print("Enter Command > ")
+    if RenewCursor == true then
+        Write("> ")
+        RenewCursor = false
+        
+    end
 
-    local GottenCommandData = Read()
+    local GottenCommandData = Read("*a")
 
-    Commands[GottenCommandData].Function()
+
+    if GottenCommandData then
+        print()
+        print(GottenCommandData)
+
+        Commands[GottenCommandData].Function()
+
+        RenewCursor = true
+    end
+
 
 end
 
