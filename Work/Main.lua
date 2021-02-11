@@ -1,7 +1,7 @@
 
 coroutine.wrap(function()
 Wait = require("timer").sleep
-local ModCats = require("./Categories.lua")
+
 
 print("░██████╗███████╗████████╗██╗░░░██╗██████╗░")
 print("██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗")
@@ -17,16 +17,36 @@ print()
 Wait(1500)
 
 print("INFO:")
-print("GAME VERSION: 1.16.5")
-print("MOD CATEGORIES:")
+print("Type: 'help'")
 
-for i, v in pairs(ModCats) do
-    print("     Name: " .. v.Name)
-    print("     Description: " .. v.Description)
-    print("     Game Version: " .. v.GameVersion)
-    print("     Folder Name: " .. v.FolderName)
-    print()
+Read = io.read
+
+local Commands = {
+
+    Cats = {
+        Name = "Cats",
+        Desc = "Verkrijg alle mod categoriën",
+        Function = require("./Commands/Cats.lua")
+    },
+    
+    Version = {
+        Name = "Cats",
+        Desc = "Krijg de game versie van alle mods",
+        Function = require("./Commands/Cats.lua")
+    },
+
+}
+
+while true do
+
+    print("Enter Command > ")
+
+    local GottenCommandData = Read()
+
+    Commands[GottenCommandData].Function()
+
 end
+
 
 
 
