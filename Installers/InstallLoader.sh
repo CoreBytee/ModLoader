@@ -3,7 +3,7 @@ DownloadURL=https://github.com/CoreBytee/ModLoader/archive/main.zip
 
 if test -f "./$Name"; then
         echo removing old..
-        rm "$Name/"
+        rmdir "$Name/"
     fi
 
 echo "Downloading"
