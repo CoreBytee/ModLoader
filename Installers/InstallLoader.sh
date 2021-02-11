@@ -2,7 +2,7 @@ Name=ModLoader
 DownloadURL=https://github.com/CoreBytee/ModLoader/archive/main.zip
 
 echo removing old..
-rm -r "$Name/"
+rm -r ModLoader/
 
 
 echo "Downloading"
