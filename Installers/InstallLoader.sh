@@ -38,6 +38,8 @@ sleep 3
 
 echo "Done"
 
+echo cd up
 cd ..
 
+echo starting
 ./Open-Mac.sh
