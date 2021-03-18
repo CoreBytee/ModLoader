@@ -38,13 +38,15 @@ sleep 3
 
 echo "Done installing LUVIT"
 
+cd ../
+
 sleep 2
 
 echo "Pakketten downloaden"
 
 sleep 2
 
-./lit install creationix/coro-http
+./Luvit/lit install creationix/coro-http
 
 echo "Coro-Http downloaded"
 
@@ -52,7 +54,7 @@ echo "Downloading Weblit"
 
 sleep 2
 
-./lit install creationix/weblit
+./Luvit/lit install creationix/weblit
 
 echo cd up
 cd ..
