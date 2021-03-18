@@ -22,6 +22,8 @@ print("Type: 'help'")
 Read = io.read
 Write = io.write
 
+MinePath = "%appdata%/.minecraft"
+
 local Commands = {
 
     Cats = {
@@ -39,17 +41,18 @@ local Commands = {
 }
 
 RenewCursor = true
-
+--[[
 while true do
 
     if RenewCursor == true then
         Write("> ")
+        io.flush()
         RenewCursor = false
         
     end
 
     local GottenCommandData = Read("*a")
-
+    print(GottenCommandData)
 
     if GottenCommandData then
         print()
@@ -61,9 +64,33 @@ while true do
     end
 
 
+end]]
+
+
+function AskYesNo(Text)
+    local Answer
+    repeat
+        io.write(Text .. " (y/n) " or "nil ")
+        io.flush()
+        Answer=string.lower(io.read())
+    until Answer == "y" or Answer == "n"
+
+    return Answer == "y"
 end
 
+_G.AskYesNo = AskYesNo
 
+local TheQuests = {
 
+    require("./Commands/TempCommands/AskYes.lua"),
+    --require("./Commands/TempCommands/AskBackup.lua"),
+    require("./Commands/TempCommands/AskFabric.lua"),
+    require("./Commands/TempCommands/AskHasFabric.lua"),
+
+}
+
+for i, v in pairs(TheQuests) do
+    v()
+end
 
 end)()
