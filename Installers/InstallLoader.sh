@@ -56,6 +56,9 @@ sleep 2
 
 ./Luvit/lit install creationix/weblit
 
+echo "also done!"
+
+sleep 2
 
 
 echo starting
