@@ -36,7 +36,23 @@ curl -L https://github.com/luvit/lit/raw/master/get-lit.sh | sh
 
 sleep 3
 
-echo "Done"
+echo "Done installing LUVIT"
+
+sleep 2
+
+echo "Pakketten downloaden"
+
+sleep 2
+
+./lit install creationix/coro-http
+
+echo "Coro-Http downloaded"
+
+echo "Downloading Weblit"
+
+sleep 2
+
+./lit install creationix/weblit
 
 echo cd up
 cd ..
