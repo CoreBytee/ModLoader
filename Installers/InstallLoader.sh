@@ -56,8 +56,7 @@ sleep 2
 
 ./Luvit/lit install creationix/weblit
 
-echo cd up
-cd ..
+
 
 echo starting
 ./Open-Mac.sh
