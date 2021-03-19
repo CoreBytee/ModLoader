@@ -39,5 +39,29 @@ echo "Done"
 echo "cd up"
 cd ..
 
+echo "installing packages"
+
+sleep 2
+
+./Luvit/lit install creationix/coro-http
+
+echo "Coro-Http downloaded"
+
+echo "Downloading Weblit"
+
+sleep 2
+
+./Luvit/lit install creationix/weblit
+
+echo "also done!"
+
+sleep 2
+
+mv DataTemplate/ Data
+
+echo "Making temp folder"
+
+mkdir Temp
+
 echo "starting"
 ./Open-Windows.ps1

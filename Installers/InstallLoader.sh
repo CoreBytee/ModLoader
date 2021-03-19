@@ -12,7 +12,7 @@ echo "Downloading"
 
 curl -L $DownloadURL > Loader.zip
 
-unzip Loader.zip
+unzip Loader.zip 
 
 sleep 1
 
@@ -59,6 +59,16 @@ sleep 2
 echo "also done!"
 
 sleep 2
+
+echo "Data template renaming"
+
+mv DataTemplate/ Data
+
+sleep 1
+
+echo "Making temp folder"
+
+mkdir Temp
 
 
 echo starting
