@@ -38,5 +38,8 @@ for i, v in pairs(Modules) do
     v.Function()
 end
 
+os.execute("open -a Safari http://localhost:8080")
+
+os.execute("start microsoft-edge:http://localhost:8080")
 
 end)()

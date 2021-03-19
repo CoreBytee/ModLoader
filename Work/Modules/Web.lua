@@ -41,7 +41,7 @@ return function()
 
     print("Website started!")
 
-    os.execute("open -a Safari http://localhost:8080")
+    
 
 
 end
