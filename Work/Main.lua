@@ -38,8 +38,12 @@ for i, v in pairs(Modules) do
     v.Function()
 end
 
-os.execute("open -a Safari http://localhost:8080")
+print("trying to open safari")
+local _, _, MacNumber = os.execute("open -a Safari http://localhost:8080")
 
+IsMac = MacNumber == 0
+
+print("trying to open Edge")
 os.execute("start microsoft-edge:http://localhost:8080")
 
 end)()
