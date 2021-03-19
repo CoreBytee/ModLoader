@@ -46,4 +46,21 @@ IsMac = MacNumber == 0
 print("trying to open Edge")
 os.execute("start microsoft-edge:http://localhost:8080")
 
+print()
+print("OS FOUND")
+
+if IsMac then
+    
+    print("█▀▄▀█ ▄▀█ █▀▀ █▀█ █▀")
+    print("█░▀░█ █▀█ █▄▄ █▄█ ▄█")
+
+else
+
+    print("█░█░█ █ █▄░█ █▀▄ █▀█ █░█░█ █▀")
+    print("▀▄▀▄▀ █ █░▀█ █▄▀ █▄█ ▀▄▀▄▀ ▄█")
+
+end
+
+print()
+
 end)()
