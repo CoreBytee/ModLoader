@@ -1,5 +1,7 @@
 Dumb
 
+deps
+
 Luvit/luvit
 Luvit/luvi 
 Luvit/lit
@@ -7,3 +9,6 @@ Luvit/lit
 Luvit/luvit.exe
 Luvit/luvi.exe
 Luvit/lit.exe
+
+Data
+Temp
