@@ -9,6 +9,7 @@ return function()
 
         Login = require("Work/PageHandlers/Login"),
         Main = require("Work/PageHandlers/Main"),
+        ModList = require("Work/PageHandlers/ModList"),
 
     } 
 
