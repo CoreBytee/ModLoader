@@ -19,11 +19,21 @@ print()
 Read = io.read
 Write = io.write
 
+_G.DataDriver = require("DataDriver")
+_G.FS = require("fs")
+
 _G.Json = require("json")
 
 MinePath = "%appdata%/.minecraft"
 
 local Modules = {
+
+    DFU = {
+
+        Name = "DFU",
+        Function = require("./Modules/DataFixerUpper")
+
+    },
 
     Web = {
 
@@ -53,6 +63,8 @@ if IsMac then
     
     print("█▀▄▀█ ▄▀█ █▀▀ █▀█ █▀")
     print("█░▀░█ █▀█ █▄▄ █▄█ ▄█")
+
+
 
 else
 

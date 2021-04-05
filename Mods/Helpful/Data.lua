@@ -10,6 +10,7 @@ return {
                 Name = "Mod menu",
                 Desc = "Handig om te kijken welke mods je hebt\nMeestal Gebruikt om te configureren.",
                 File = "Mod-Menu.jar",
+                Id = ""
             },
 
             ModUpdater = {
