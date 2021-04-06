@@ -70,6 +70,8 @@ mv ConfigurationTemplate/ Configuration
 mv Data ../Data
 mv Configuration ../Configuration
 
+cd ../
+
 sleep 1
 
 echo "Making temp folder"
