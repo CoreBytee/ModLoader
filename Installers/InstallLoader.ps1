@@ -82,4 +82,8 @@ mv ModLoader/ $env:APPDATA/.minecraft/ModLoader/
 echo $PSCommandPath
 
 echo "starting"
-$env:APPDATA\\.minecraft\\ModLoader\\Open-Windows.ps1
+
+cd $env:APPDATA
+cd .minecraft
+cd ModLoader
+./Open-Windows.ps1
