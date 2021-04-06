@@ -20,5 +20,21 @@ echo ""
 
 
 echo "Starting setup wizard"
+echo ""
 
-./Luvit/luvit ./Work/Main.lua
+if ( $args[0] -eq "Client" )
+{
+    ./Luvit/luvit ./Client/Main
+}
+elseif ( $args[0] -eq "Server" )
+{
+    ./Luvit/luvit ./Server/Main
+}
+else
+{
+    Write-Host "Geef '" -ForegroundColor Red -NoNewline
+    Write-Host "Server" -ForegroundColor Green -NoNewline
+    Write-Host "' of '" -ForegroundColor Red -NoNewline
+    Write-Host "Client" -ForegroundColor Green -NoNewline
+    Write-Host "' op" -ForegroundColor Red -NoNewline
+}
