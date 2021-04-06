@@ -1,10 +1,12 @@
 Name=ModLoader
 DownloadURL=https://github.com/CoreBytee/ModLoader/archive/main.zip
 
+cd ~/Library/Application Support/minecraft
+
 echo removing old..
 rm -r ModLoader/
 
-sleep 2
+sleep 3
 
 echo "Downloading"
 
