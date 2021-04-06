@@ -1,4 +1,7 @@
 
+cd %appdata%
+cd .minecraft
+
 echo removing old..
 rm -r ModLoader/
 
