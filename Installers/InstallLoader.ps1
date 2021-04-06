@@ -1,6 +1,5 @@
 
-cd %appdata%
-cd .minecraft
+
 
 echo removing old..
 rm -r ModLoader/
@@ -75,6 +74,10 @@ rm -r Templates/
 echo "Making temp folder"
 
 mkdir Temp
+
+cd ..
+
+mv ModLoader/ %appdata%/.minecraft
 
 echo "starting"
 ./Open-Windows.ps1
