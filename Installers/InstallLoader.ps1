@@ -80,4 +80,4 @@ cd ..
 mv ModLoader/ $env:APPDATA/.minecraft/ModLoader/
 
 echo "starting"
-./Open-Windows.ps1
+$env:APPDATA/.minecraft/ModLoader/Open-Windows.ps1
