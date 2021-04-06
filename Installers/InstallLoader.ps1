@@ -77,7 +77,7 @@ mkdir Temp
 
 cd ..
 
-mv ModLoader/ %appdata%/.minecraft/ModLoader/
+mv ModLoader/ $env:APPDATA/roaming/.minecraft/ModLoader/
 
 echo "starting"
 ./Open-Windows.ps1
