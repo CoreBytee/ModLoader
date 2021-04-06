@@ -62,7 +62,8 @@ sleep 2
 
 echo "Data template renaming"
 
-mv DataTemplate/ Data
+mv /Templates/DataTemplate/ Data
+mv /Templates/ConfigurationTemplate/ Configuration
 
 sleep 1
 

@@ -57,7 +57,8 @@ echo "also done!"
 
 sleep 2
 
-mv DataTemplate/ Data
+mv /Templates/DataTemplate/ Data
+mv /Templates/ConfigurationTemplate/ Configuration
 
 echo "Making temp folder"
 
