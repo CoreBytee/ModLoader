@@ -21,4 +21,4 @@ echo
 
 echo Starting setup wizard
 
-./Luvit/luvit ./Work/Main.lua
+./Luvit/luvit ./Client/Main.lua
