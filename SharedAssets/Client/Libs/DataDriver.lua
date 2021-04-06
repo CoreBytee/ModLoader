@@ -10,6 +10,21 @@ end
 
 function DataDriverModule.OS.Set(OS)
     _G.OS = OS
+
+    local OperatingData = Json.decode(Readfile("./Data/OperatingData.json"))
+
+    OperatingData.OS = OS
+
+    Writefile("./Data/OperatingData.json", Json.encode(OperatingData))
+end
+
+function DataDriverModule.OS.Start()
+    local OperatingData = Json.decode(Readfile("./Data/OperatingData.json"))
+
+    OperatingData.FirstLaunch = false
+    OperatingData.LaunchCount = OperatingData.LaunchCount + 1
+
+    Writefile("./Data/OperatingData.json", Json.encode(OperatingData))
 end
 
 -- PATHs part
