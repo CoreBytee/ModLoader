@@ -76,14 +76,18 @@ if IsMac then
     print("█▀▄▀█ ▄▀█ █▀▀ █▀█ █▀")
     print("█░▀░█ █▀█ █▄▄ █▄█ ▄█")
 
-
+    GetLib("DataDriver").OS.Set("MAC")
 
 else
 
     print("█░█░█ █ █▄░█ █▀▄ █▀█ █░█░█ █▀")
     print("▀▄▀▄▀ █ █░▀█ █▄▀ █▄█ ▀▄▀▄▀ ▄█")
 
+    GetLib("DataDriver").OS.Set("WINDOWS")
+
 end
+
+GetLib("DataDriver").OS.Start()
 
 print()
 
