@@ -70,7 +70,9 @@ mv ConfigurationTemplate/ Configuration
 mv Data ../Data
 mv Configuration ../Configuration
 
-cd ../
+cd ..
+
+rm -r Templates/
 
 sleep 1
 
