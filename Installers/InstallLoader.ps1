@@ -48,7 +48,6 @@ sleep 2
 
 echo "Downloading Weblit"
 
-sleep 2
 
 ./Luvit/lit install creationix/weblit
 
