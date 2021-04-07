@@ -45,10 +45,6 @@ echo "installing packages"
 
 sleep 2
 
-./Luvit/lit install creationix/coro-http
-
-echo "Coro-Http downloaded"
-
 echo "Downloading Weblit"
 
 sleep 2
