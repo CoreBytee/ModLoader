@@ -89,4 +89,4 @@ mkdir Temp
 
 
 echo starting
-./Open-Mac.sh
+./Open-Mac.sh Client

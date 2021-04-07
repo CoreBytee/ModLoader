@@ -86,4 +86,4 @@ echo "starting"
 cd $env:APPDATA
 cd .minecraft
 cd ModLoader
-./Open-Windows.ps1
+./Open-Windows.ps1 Client
