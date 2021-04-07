@@ -72,13 +72,8 @@ echo "Making temp folder"
 
 mkdir Temp
 
-cd ..
-
-#mv ModLoader/ $env:APPDATA/.minecraft/ModLoader/
-
 echo $PSCommandPath
 
 echo "starting"
-
 
 ./Open-Windows.ps1 Client
