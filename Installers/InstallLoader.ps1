@@ -1,5 +1,6 @@
 
-
+cd $env:APPDATA
+cd .minecraft
 
 echo removing old..
 rm -r ModLoader/
@@ -45,13 +46,8 @@ echo "installing packages"
 
 sleep 2
 
-./Luvit/lit install creationix/coro-http
-
-echo "Coro-Http downloaded"
-
 echo "Downloading Weblit"
 
-sleep 2
 
 ./Luvit/lit install creationix/weblit
 
@@ -75,15 +71,8 @@ echo "Making temp folder"
 
 mkdir Temp
 
-cd ..
-
-mv ModLoader/ $env:APPDATA/.minecraft/ModLoader/
-
 echo $PSCommandPath
 
 echo "starting"
 
-cd $env:APPDATA
-cd .minecraft
-cd ModLoader
-./Open-Windows.ps1
+./Open-Windows.ps1 Client

@@ -53,10 +53,6 @@ echo "Pakketten downloaden"
 
 sleep 2
 
-./Luvit/lit install creationix/coro-http
-
-echo "Coro-Http downloaded"
-
 echo "Downloading Weblit"
 
 sleep 2
@@ -89,4 +85,4 @@ mkdir Temp
 
 
 echo starting
-./Open-Mac.sh
+./Open-Mac.sh Client
