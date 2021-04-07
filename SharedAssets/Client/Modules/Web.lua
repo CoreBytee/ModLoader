@@ -10,6 +10,7 @@ return function()
         Login = GetPageHandler("Login"),
         Main = GetPageHandler("Main"),
         ModList = GetPageHandler("ModList"),
+        Bottom_bar = GetPageHandler("Helping/Bottom_bar"),
 
     } 
 
