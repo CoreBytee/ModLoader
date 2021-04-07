@@ -1,5 +1,6 @@
 
-
+cd $env:APPDATA
+cd .minecraft
 
 echo removing old..
 rm -r ModLoader/
@@ -73,13 +74,11 @@ mkdir Temp
 
 cd ..
 
-mv ModLoader/ $env:APPDATA/.minecraft/ModLoader/
+#mv ModLoader/ $env:APPDATA/.minecraft/ModLoader/
 
 echo $PSCommandPath
 
 echo "starting"
 
-cd $env:APPDATA
-cd .minecraft
-cd ModLoader
+
 ./Open-Windows.ps1 Client
