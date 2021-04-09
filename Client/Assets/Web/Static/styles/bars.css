@@ -1,0 +1,12 @@
+.side_bar {
+    height: 100%;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    position: fixed;
+    font-size: 20px;
+}
+
+.side_bar a {
+    display: block;
+    width: 250px;
+}
