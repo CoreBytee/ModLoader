@@ -20,15 +20,15 @@ Read = io.read
 Write = io.write
 
 _G.GetLib = function(Name)
-    return require("../SharedAssets/Client/Libs/" .. Name .. ".lua")
+    return require("./Libs/" .. Name .. ".lua")
 end
 
 _G.GetModule = function(Name)
-    return require("../SharedAssets/Client/Modules/" .. Name .. ".lua")
+    return require("./Modules/" .. Name .. ".lua")
 end
 
 _G.GetPageHandler = function(Name)
-    return require("../Client/PageHandlers/" .. Name .. ".lua")
+    return require("./PageHandlers/" .. Name .. ".lua")
 end
 
 _G.DataDriver = GetLib("DataDriver")
