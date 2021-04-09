@@ -4,7 +4,7 @@ return function(App)
         {path = "/", method = "GET"},
         function(Request, Response, Go)
 
-            local LoginData = Json.decode(Readfile("./Data/LoginData.json"))
+            local LoginData = Json.decode(Readfile("./Client/Data/Data/LoginData.json"))
 
             print("Logged in as " .. tostring(LoginData.name))
 
@@ -37,11 +37,11 @@ return function(App)
 
             print("New User " .. Request.query.username)
 
-            local LoginData = Json.decode(Readfile("./Data/LoginData.json"))
+            local LoginData = Json.decode(Readfile("./Client/Data/Data/LoginData.json"))
 
             LoginData.name = Request.query.username
 
-            Writefile("./Data/LoginData.json", Json.encode(LoginData))
+            Writefile("./Client/Data/Data/LoginData.json", Json.encode(LoginData))
 
             Response.body = Redirect("/home")
             Response.code = 200
