@@ -65,23 +65,28 @@ sleep 2
 
 echo "Data template renaming"
 
-cd Templates
+cd Client
+cd Data
+cd Template
 
 mv DataTemplate/ Data
-mv ConfigurationTemplate/ Configuration
+mv ConfigurationTemplate/ Config
 
 mv Data ../Data
-mv Configuration ../Configuration
+mv Config ../Config
 
 cd ..
 
-rm -r Templates/
+rm -r Template/
+
+cd ..
+cd ..
 
 sleep 1
 
-echo "Making temp folder"
+#echo "Making temp folder"
 
-mkdir Temp
+#mkdir Temp
 
 
 echo starting
