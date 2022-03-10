@@ -4,7 +4,14 @@ FS.mkdirSync("./CubicLoader")
 
 
 local Stages = {
-    require("./Stages/DownloadFo.lua")
+    require("./Stages/CreateGameFolder.lua"),
+    require("./Stages/DownloadFo.lua"),
+    require("./Stages/PatchResources.lua"),
+    require("./Stages/DownloadFabric.lua"),
+
+
+    require("./Stages/CreateLauncherProfile.lua"),
+
 }
 
 p("Starting Stages")

@@ -1,11 +1,14 @@
 _G.UV = require("uv")
 _G.Process = require("process").globalProcess()
+_G.process = Process
 _G.require = require("require")
 _G.p = require("pretty-print").prettyPrint
 _G.FS = require("fs")
 
 _G.Json = require("json")
 _G.Timer = require("timer")
+
+_G.OS = require("los").type()
 
 _G.Locations = require("Locations")
 
