@@ -36,7 +36,7 @@ return {
                 if CheckIgnore(Mod.path) then
                     p(true)
                     local Response, File = Request("GET", Mod.downloads[1])
-                    FS.writeFileSync("./CubicLoader/" .. Mod.path, File)
+                    FS.writeFileSync(Locations.CustomPath() .. Mod.path, File)
                 else
                     p(false)
                 end
