@@ -20,7 +20,7 @@ return {
         local Response, Body = Request("GET", FabricRelease.url)
         FS.writeFileSync("./.CubicLoader/FabricInstaller.jar", Body)
 
-        local Result = Spawn(
+        local Result, Error = Spawn(
             "java",
             {
                 args = {
@@ -33,7 +33,10 @@ return {
             }
         )
 
-        Result.waitExit()
+        if Result then
+            Result.waitExit()
+        end
+        
         print("Install Fabric > " .. (Result.stdout.read() or "No Info"))
         print("Install Fabric > " .. (Result.stderr.read() or "No Error"))
         print("Install Fabric > " .. (Error or "Install Successfull"))
