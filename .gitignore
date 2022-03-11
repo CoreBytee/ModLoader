@@ -1,5 +1,4 @@
 .DS_Store
-.DS_Store
 
 bin
 
@@ -11,3 +10,5 @@ Update.sh
 
 .CubicLoader
 CubicLoader.exe
+CubicLoader_MacOS.zip
+CubicLoader_MacOS
