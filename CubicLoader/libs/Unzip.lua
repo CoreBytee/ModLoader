@@ -1,40 +1,40 @@
+local OS = require("los").type()
 local Spawn = require("coro-spawn")
+local Path = require("path")
+local FS = require("fs")
 
-return function (Path, Dest)
-    if OS == "debian" then
-        local Result, Error = Spawn(
-            "unzip",
-            {
-                args = {
-                    Path
-                },
-                cwd = Dest,
-                stdio = {true, true, true},
-                hide = true
-            }
-        )
-
-        Result.waitExit()
-
-    elseif OS == "win32" then
-        p(require("path").resolve(Path))
-        p(Path)
+local Functions = {
+    ["win32"] = function (From, To)
+        FS.mkdirSync(To)
         local Result, Error = Spawn(
             "tar",
             {
                 args = {
-                    "-xf",
-                    require("path").resolve(Path)
+                    "-xf", Path.resolve(From),
+                    "-C", Path.resolve(To)
+                }
+            }
+        )
+        Result.waitExit()
+
+    end,
+    ["darwin"] = function (From, To)
+        FS.mkdirSync(To)
+        local Result, Error = Spawn(
+            "unzip",
+            {
+                args = {
+                    From
                 },
+                cwd = To,
                 stdio = {true, true, true},
-                cwd = require("path").resolve(Dest),
                 hide = true
             }
         )
-
-        p(Error)
         Result.waitExit()
-        p(Result.stdout.read())
-        
     end
+}
+
+return function (From, To)
+    return Functions[OS](From, To)
 end

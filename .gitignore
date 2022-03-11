@@ -2,3 +2,9 @@
 .DS_Store
 
 bin
+
+Build.ps1
+Update.ps1
+
+.CubicLoader
+CubicLoader.exe

@@ -1,17 +1,16 @@
-local FS = require("fs")
+print("Loading Cubic Loader...")
 
-FS.mkdirSync("./CubicLoader")
-
+print("Loading Stage Manager")
 
 local Stages = {
-    require("./Stages/CreateGameFolder.lua"),
-    require("./Stages/PatchLauncher.lua"),
+    require("./Stages/CreateFolders.lua"),
+    require("./Stages/DownloadFiles.lua"),
+    require("./Stages/PatchFiles.lua"),
+    require("./Stages/CreateProfile.lua")
 }
 
-p("Starting Stages")
-
 for Index, Stage in pairs(Stages) do
-    p("Starting Stage " .. Stage.Name)
-    Stage.F()
-    p("Done")
+    print("Stage Manager > Starting Stage '" .. Stage.Name .. "'")
+    Stage.Function()
+    print("")
 end
