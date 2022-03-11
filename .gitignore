@@ -6,5 +6,8 @@ bin
 Build.ps1
 Update.ps1
 
+Build.sh
+Update.sh
+
 .CubicLoader
 CubicLoader.exe

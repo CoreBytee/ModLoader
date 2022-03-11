@@ -4,6 +4,7 @@ print("Loading Stage Manager")
 
 local Stages = {
     require("./Stages/CreateFolders.lua"),
+    require("./Stages/InstallFabric.lua"),
     require("./Stages/DownloadFiles.lua"),
     require("./Stages/PatchFiles.lua"),
     require("./Stages/CreateProfile.lua")

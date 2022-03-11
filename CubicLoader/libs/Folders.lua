@@ -1,10 +1,11 @@
 local Locations = {}
 local OS = require("los").type()
+local Path = require("path")
 
 function Locations.GetAppdata()
     local Folders = {
         ["win32"] = Process.env.APPDATA,
-        ["darwin"] = "~/Library/Application\\ Support/"
+        ["darwin"] = "/Users/" .. Process.env.USER .. "/Library/Application Support/"
     }
 
     return Folders[OS]
@@ -22,7 +23,7 @@ end
 function Locations.GetCustomFolder()
     local Folders = {
         ["win32"] = "/.CubicCraft/",
-        ["darwin"] = "/.CubicCraft/"
+        ["darwin"] = "/CubicCraft/"
     }
 
     return Locations.GetAppdata() .. Folders[OS]

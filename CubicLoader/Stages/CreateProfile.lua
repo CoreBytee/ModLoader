@@ -12,7 +12,7 @@ return {
         local Profiles = Json.decode(FS.readFileSync(Folders.GetProfilesFile()))
         Profiles.profiles.CubicCraft = Profile
 
-        print(FS.writeFileSync(Folders.GetProfilesFile(), Json.encode(Profiles, {indent = true})))
+        FS.writeFileSync(Folders.GetProfilesFile(), Json.encode(Profiles, {indent = true}))
         print("Create Profile > Created Profile!")
 
     end

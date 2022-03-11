@@ -2,6 +2,7 @@ local OS = require("los").type()
 local Spawn = require("coro-spawn")
 local Path = require("path")
 local FS = require("fs")
+local Split = require("Split")
 
 local Functions = {
     ["win32"] = function (From, To)
@@ -24,13 +25,15 @@ local Functions = {
             "unzip",
             {
                 args = {
-                    From
+                    Path.resolve(From)
                 },
-                cwd = To,
-                stdio = {true, true, true},
-                hide = true
+                cwd = To
             }
         )
+
+        for Line in Result.stdout.read do
+            Process.stdout:write(Line)
+        end
         Result.waitExit()
     end
 }
