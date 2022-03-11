@@ -5,7 +5,7 @@ local Path = require("path")
 function Locations.GetAppdata()
     local Folders = {
         ["win32"] = Process.env.APPDATA,
-        ["darwin"] = "/Users/" .. Process.env.USER .. "/Library/Application Support/"
+        ["darwin"] = "/Users/" .. (Process.env.USER or "") .. "/Library/Application Support/"
     }
 
     return Folders[OS]
