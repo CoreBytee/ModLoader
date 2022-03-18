@@ -2,3 +2,5 @@ CubicModReporter.mex
 Build.sh
 Update.sh
 deps
+
+InstallDeps.ps1
