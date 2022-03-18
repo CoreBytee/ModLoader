@@ -17,7 +17,8 @@ local function GetModInfo(ModPath)
                 "-xOzf",
                 Path.resolve(ModPath),
                 "fabric.mod.json"
-            }
+            },
+            hide = true
         }
     )
     Result.waitExit()
