@@ -14,5 +14,13 @@ return {
             FS.renameSync("./.CubicLoader/mods/Minecraft Map/" .. FileName, Folders.GetCustomFolder() .. FileName)
         end
 
+        FS.mkdirSync(
+            Folders:GetCustomFolder() .. "/CubicLoader/"
+        )
+        FS.writeFileSync(
+            Folders:GetCustomFolder() .. "/CubicLoader/OS.txt",
+            require("los").type()
+        )
+
     end
 }
