@@ -1,3 +1,6 @@
 .DS_Store
 deps
 .Build
+CubicModReporter/PlayerName.txt
+CubicModReporter/Hashes.json
+CubicModBank/Webhooks.json
