@@ -29,6 +29,25 @@ App.route(
         path = "/report/"
     },
     function (Request, Response)
+        if not Request.body then return end
+        local ReceivedHashes = Json.decode(Request.body)
+
+    end
+)
+
+App.route(
+    {
+        method = "GET",
+        path = "/start/"
+    },
+    function (Request, Response)
+        if not Request.query then return end
+        if not Request.query.username then return end
+        Webhook:Send(
+            {
+                content = "Player **" .. Request.query.username .. "** is starting his game\nHash report coming soon"
+            }
+        )
         p(Request.body)
     end
 )
