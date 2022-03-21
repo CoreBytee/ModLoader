@@ -4,3 +4,5 @@ deps
 CubicModReporter/PlayerName.txt
 CubicModReporter/Hashes.json
 CubicModBank/Webhooks.json
+bin
+indium-1.0.2+mc1.18.2.jar
