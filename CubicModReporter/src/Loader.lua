@@ -33,7 +33,7 @@ local Domains = {
 }
 local Domain = Domains[IsLocalServer()]
 
-Request("GET", Domain .. "/start/?username=" .. FS.readFileSync("./PlayerName.txt"))
+Request("GET", Domain .. "/start/?username=" .. FS.readFileSync("./PlayerName.txt") .. "&start=" .. FS.readFileSync("./IsStart.txt"))
 
 local Report = {}
 do
@@ -43,7 +43,6 @@ do
 end
 
 
-p(Report)
 print(Json.encode(Report, {indent = true}))
 
 
