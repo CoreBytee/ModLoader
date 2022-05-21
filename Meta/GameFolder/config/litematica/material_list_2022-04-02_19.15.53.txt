@@ -1,0 +1,25 @@
++--------------------+-------+---------+-----------------+
+| Material List for schematic 'Unnamed' (1 of 1 regions) |
++--------------------+-------+---------+-----------------+
+| Item               | Total | Missing |       Available |
++--------------------+-------+---------+-----------------+
+| Sand               |  1089 |    1089 |               0 |
+| Obsidian           |   367 |     367 |             402 |
+| Glass              |   254 |     254 |               0 |
+| Smooth Stone       |    70 |      70 |               0 |
+| Red Stained Glass  |    33 |      33 |               0 |
+| Stone Button       |    23 |      23 |               0 |
+| Cobblestone        |    20 |      20 |               0 |
+| Stone Brick Stairs |    19 |      19 |               0 |
+| Smooth Stone Slab  |    17 |      17 |               0 |
+| Scaffolding        |     4 |       4 |               0 |
+| Lever              |     3 |       3 |               0 |
+| Oak Trapdoor       |     2 |       2 |               0 |
+| Powered Rail       |     2 |       2 |               0 |
+| Soul Sand          |     2 |       2 |               0 |
+| Black Banner       |     1 |       1 |               0 |
+| Oak Sign           |     1 |       1 |               0 |
+| Sticky Piston      |     1 |       1 |               0 |
++--------------------+-------+---------+-----------------+
+| Item               | Total | Missing |       Available |
++--------------------+-------+---------+-----------------+

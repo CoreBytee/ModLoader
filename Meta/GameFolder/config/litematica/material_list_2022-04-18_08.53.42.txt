@@ -1,0 +1,21 @@
++-----------------+-------+---------+--------------------+
+| Material List for schematic 'Unnamed' (1 of 1 regions) |
++-----------------+-------+---------+--------------------+
+| Item            | Total | Missing |          Available |
++-----------------+-------+---------+--------------------+
+| Stone           |  1395 |    1395 |                  0 |
+| Oak Leaves      |   132 |     132 |                  0 |
+| White Carpet    |   123 |     123 |                  0 |
+| Cobblestone     |    57 |      57 |                  0 |
+| Ladder          |    56 |      56 |                  0 |
+| Hopper          |    13 |      13 |                  0 |
+| Spruce Trapdoor |     8 |       8 |                  0 |
+| Observer        |     2 |       2 |                  0 |
+| Dark Enchanter  |     1 |       1 |                  0 |
+| Dropper         |     1 |       1 |                  0 |
+| Iron Bars       |     1 |       1 |                  0 |
+| Lever           |     1 |       1 |                  0 |
+| Sticky Piston   |     1 |       1 |                  0 |
++-----------------+-------+---------+--------------------+
+| Item            | Total | Missing |          Available |
++-----------------+-------+---------+--------------------+

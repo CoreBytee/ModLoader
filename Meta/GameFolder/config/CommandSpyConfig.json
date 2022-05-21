@@ -1,0 +1,19 @@
+{
+  "logging": {
+    "logPlayerCommands": true,
+    "logCommandBlockCommands": true,
+    "logSignCommands": true,
+    "logToConsole": true,
+    "logToOps": true
+  },
+  "messages": {
+    "commandBlockMessageStyle": "Command block in: ${dimension} at X: ${x} Y: ${y} Z: ${z} executed command: ${command}",
+    "playerMessageStyle": "Player ${playername} (UUID: ${uuid}) used command: ${command}",
+    "signMessageStyle": "Sign in: ${dimension} at X: ${x} Y: ${y} Z: ${z} executed command: ${command}"
+  },
+  "blacklistedCommands": [
+    "msg",
+    "w",
+    "testCommandThatShouldNotBeLogged"
+  ]
+}

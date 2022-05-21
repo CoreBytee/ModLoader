@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "core": {
+    "maxLockTime": 500,
+    "defaultProfile": "default",
+    "profiles": {
+      "default": [
+        {
+          "triggerType": "EVENT",
+          "event": "OpenScreen",
+          "scriptFile": "index.lua",
+          "enabled": false
+        },
+        {
+          "triggerType": "EVENT",
+          "event": "OpenScreen",
+          "scriptFile": "joinbutton.lua",
+          "enabled": false
+        },
+        {
+          "triggerType": "EVENT",
+          "event": "ResourcePackLoaded",
+          "scriptFile": "ResourceReload.lua",
+          "enabled": false
+        }
+      ]
+    },
+    "services": {},
+    "extraJsOptions": {}
+  },
+  "client": {
+    "sortMethod": "Enabled",
+    "disableKeyWhenScreenOpen": true,
+    "editorLinterOverrides": {},
+    "editorHistorySize": 20,
+    "editorSuggestions": true,
+    "editorFont": "jsmacros:jetbrainsmono",
+    "externalEditor": false,
+    "externalEditorCommand": "code %MacroFolder %File"
+  },
+  "lua": {
+    "useGlobalContext": false
+  }
+}

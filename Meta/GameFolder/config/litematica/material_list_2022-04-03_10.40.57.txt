@@ -1,0 +1,23 @@
++-------------------+-------+---------+------------------+
+| Material List for schematic 'Unnamed' (1 of 1 regions) |
++-------------------+-------+---------+------------------+
+| Item              | Total | Missing |        Available |
++-------------------+-------+---------+------------------+
+| Smooth Stone Slab |    43 |      43 |                0 |
+| Stone Button      |    21 |      21 |                0 |
+| Oak Trapdoor      |    18 |      18 |                0 |
+| Soul Sand         |    16 |      16 |                0 |
+| Obsidian          |    10 |      10 |                0 |
+| Powered Rail      |     5 |       5 |                0 |
+| Hopper            |     4 |       4 |                0 |
+| Observer          |     3 |       3 |                0 |
+| Piston            |     3 |       3 |                0 |
+| Redstone Dust     |     3 |       3 |                0 |
+| String            |     3 |       3 |                0 |
+| Wither Rose       |     3 |       3 |                0 |
+| Lever             |     2 |       2 |                0 |
+| Activator Rail    |     1 |       1 |                0 |
+| Chest             |     1 |       1 |                0 |
++-------------------+-------+---------+------------------+
+| Item              | Total | Missing |        Available |
++-------------------+-------+---------+------------------+
