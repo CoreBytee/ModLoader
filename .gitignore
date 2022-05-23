@@ -3,3 +3,4 @@
 deps
 Upload.ps1
 GameFolder.path
+.vscode/settings.json
