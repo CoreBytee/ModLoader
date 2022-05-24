@@ -24,7 +24,7 @@ if string.find(TypeWriter.Arguments[2], "JavaCheck.jar") then
     process:exit()
 end
 
-local Github = Import("ga.cubic-inc.smp.javaruntime.Github"):new("CoreBytee", "Modloader", "main", "Meta/GameFolder"):FetchTree()
+local Github = Import("ga.cubic-inc.smp.javaruntime.Github"):new("CoreBytee", "Modloader", "main", "Meta/GameFolder"):FetchTree():Sync()
 
 local Result, Error = Spawn(
     JavaHome,

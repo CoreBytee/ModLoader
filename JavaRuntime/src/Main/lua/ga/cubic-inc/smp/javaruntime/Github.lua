@@ -12,6 +12,7 @@ function Github:initialize(Author, Repository, Branch, Path)
     self.Repository = Repository
     self.Branch = Branch
     self.Path = Path
+    self.Hashes = {}
 end
 
 function Github:FetchTree()
@@ -41,8 +42,58 @@ function Github:FetchTree()
             )
         end
     end
-    Log(Files)
+    p(Files)
+    self.Tree = Files
     return self
+end
+
+function Github:FindHashFiles()
+    local Hashes = {}
+    for Index, File in pairs(self.Tree) do
+        if File.Path:endswith(".hash") then
+            table.insert(Hashes, File)
+        end
+    end
+    return Hashes
+end
+
+function Github:FetchRemoteHashes()
+    if self.Hashes.Remote ~= nil then
+        return self
+    end
+    self.Hashes.Remote = {}
+    local HashFiles = self:FindHashFiles()
+    for Index, File in pairs(HashFiles) do
+        Log(File)
+        Log(Index, #HashFiles)
+        local Response, Data = JsonRequest(
+            "GET",
+            string.format(
+                "https://raw.githubusercontent.com/%s/%s/%s/%s",
+                self.Author,
+                self.Repository,
+                self.Branch,
+                File.FullPath
+            ),
+            {
+                {"User-Agent", "Modloader"}
+            }
+        )
+        Log(Data)
+    end
+end
+
+function Github:FetchLocalHashes()
+    if self.Hashes.Local ~= nil then
+        return self
+    end
+    self.Hashes.Local = {}
+    
+end
+
+function Github:Sync()
+    self:FetchRemoteHashes()
+    self:FetchLocalHashes()
 end
 
 return Github
