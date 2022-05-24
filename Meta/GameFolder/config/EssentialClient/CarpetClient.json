@@ -2114,6 +2114,13 @@
     "default": false
   },
   {
+    "name": "entityBlockCollisionUsingCenterFix",
+    "type": "BOOLEAN",
+    "description": "Fixes multiple bugs related to effects happening only when the entity center is in the block instead of hitbox\n§3From: fxmorin/carpet-fixes",
+    "extras": "'MC-1133' ",
+    "default": false
+  },
+  {
     "name": "silkTouchPathBlocks",
     "type": "BOOLEAN",
     "description": "Mining path blocks with a silk touch tool will drop itself\n§3From: RubixDev/Rug",
@@ -5763,6 +5770,13 @@
     ]
   },
   {
+    "name": "dyeableShearedSheep",
+    "type": "BOOLEAN",
+    "description": "Sheared sheep can be dyed\n§3From: manyrandomthings/minitweaks",
+    "extras": null,
+    "default": false
+  },
+  {
     "name": "stackableShulkerBoxes",
     "type": "BOOLEAN",
     "description": "Empty shulker boxes can stack to 64 when dropped on the ground\n§3From: gnembon/fabric-carpet",
@@ -5939,6 +5953,13 @@
       "false",
       "ops"
     ]
+  },
+  {
+    "name": "enderpearlClipFix",
+    "type": "BOOLEAN",
+    "description": "Fixes enderpearls allowing you to clip through blocks horizontally\n§3From: fxmorin/carpet-fixes",
+    "extras": "'MC-2164' ",
+    "default": false
   },
   {
     "name": "strictBlockPlacement",
