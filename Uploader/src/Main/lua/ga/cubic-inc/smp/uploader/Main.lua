@@ -24,7 +24,7 @@ local function HashFile(DestinationPath, File, SourcePath, FileData, Index, Leng
         Hash = Hash(FileData)
     }
     print("Writing hash")
-    FS.writeFileSync(DestinationPath .. ".hash", Json.encode(HashData, { indent = true, keyorder = {"File, Size, Hash"} }))
+    FS.writeFileSync(DestinationPath .. ".hash", Json.encode(HashData, { indent = true, keyorder = {"File", "Size", "Hash"} }))
     print("Wrote hash")
     print(Index .. "/" .. Length)
     print()
