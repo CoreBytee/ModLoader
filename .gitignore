@@ -1,6 +1,7 @@
 /TypeWriter/
 /Java.log
 deps
-Upload.ps1
 GameFolder.path
-.vscode/settings.json
+.vscode/
+
+/Build_*.ps1
