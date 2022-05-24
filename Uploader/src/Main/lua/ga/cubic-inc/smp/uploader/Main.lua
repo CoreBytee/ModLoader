@@ -12,7 +12,6 @@ end
 local function HashFile(DestinationPath, FileData)
     print("Compiling hash")
     local SplitPath = DestinationPath:split("/")
-    p(SplitPath)
     local HashData = {
         File = SplitPath[#SplitPath],
         Size = #FileData,
