@@ -9,38 +9,37 @@ local function ClearFolder(Path)
     FS.mkdir(Path)
 end
 
-local function CopyFile(Source, Destination)
-    local FileData = FS.readFileSync(Source)
-    FS.writeFileSync(Destination, FileData)
-    return FileData
-end
-
-local function HashFile(DestinationPath, File, SourcePath, FileData, Index, Length)
-    print("Copied " .. File)
+local function HashFile(DestinationPath, FileData)
     print("Compiling hash")
+    local SplitPath = DestinationPath:split("/")
+    p(SplitPath)
     local HashData = {
-        File = File,
+        File = SplitPath[#SplitPath],
         Size = #FileData,
         Hash = Hash(FileData)
     }
     print("Writing hash")
     FS.writeFileSync(DestinationPath .. ".hash", Json.encode(HashData, { indent = true, keyorder = {"File", "Size", "Hash"} }))
     print("Wrote hash")
-    print(Index .. "/" .. Length)
     print()
 end
 
-local function CopyFolder(Source, Destination, Callback)
-    if Callback == nil then
-        Callback = function() end
-    end
+local function CopyFile(Source, Destination)
+    local FileData = FS.readFileSync(Source)
+    FS.writeFileSync(Destination, FileData)
+    HashFile(Destination, FileData)
+    return FileData
+end
+
+local function CopyFolder(Source, Destination)
     local Length = #FS.readdirSync(Source)
     local Index = 0
     FS.mkdirSync(Destination)
-    for File, Type in FS.scandirSync(Source) do
-        coroutine.wrap(function ()
-            local SourcePath = Source .. "/" .. File
-            local DestinationPath = Destination .. "/" .. File
+    for _, File in pairs(FS.readdirSync(Source)) do
+        local SourcePath = Source .. "/" .. File
+        local DestinationPath = Destination .. "/" .. File
+        local Type = FS.statSync(SourcePath).type
+        coroutine.resume(coroutine.create(function ()
             if string.endswith(File, ".ignore") or FS.existsSync(Source .. "/" .. File .. ".ignore") then
                 -- just ignore this duhh
             elseif Type == "directory" then
@@ -48,11 +47,9 @@ local function CopyFolder(Source, Destination, Callback)
                 CopyFolder(SourcePath, DestinationPath, Callback)
             else
                 local FileData = CopyFile(SourcePath, DestinationPath)
-                HashFile(DestinationPath, File, SourcePath, FileData, Index + 1, Length - 1)
-                Callback(DestinationPath, File, SourcePath, FileData, Index + 1, Length)
             end
             Index = Index + 1
-        end)()
+        end))
     end
     repeat
         Wait(1)
