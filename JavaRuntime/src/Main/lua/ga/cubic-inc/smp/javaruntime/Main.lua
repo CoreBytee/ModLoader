@@ -3,25 +3,14 @@ local FS = require("fs")
 local Json = require("json")
 local Spawn = require("coro-spawn")
 local JavaHome = Import("ga.cubic-inc.smp.javaruntime.JavaHome")()
+local Information = TypeWriter.Logger.Info
+TypeWriter.Logger.RegisterLogFile(TypeWriter.ExeFolder .. "/JavaRuntime.log")
 
-function Log(Text)
-    require("fs").appendFileSync(
-        TypeWriter.ExeFolder .. "/JavaRuntime.log",
-        require("json").encode(
-            Text,
-            {
-                indent = true
-            }
-        ) .. "\n"
-    )
-    p(Text)
-end
-
-Log(TypeWriter.Arguments)
+Information(TypeWriter.Arguments)
 
 if string.find(TypeWriter.Arguments[2], "JavaCheck.jar") then
     print("java.version=17.0.1")
-    Log("Spoofing")
+    Information("Spoofing")
     process:exit()
 end
 
