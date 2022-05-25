@@ -6,7 +6,7 @@ local JavaHome = Import("ga.cubic-inc.smp.javaruntime.JavaHome")()
 
 function Log(Text)
     require("fs").appendFileSync(
-        "C:/Users/Thijmen/Documents/Github/Self/ModLoader/Java.log",
+        TypeWriter.ExeFolder .. "/JavaRuntime.log",
         require("json").encode(
             Text,
             {
@@ -14,6 +14,7 @@ function Log(Text)
             }
         ) .. "\n"
     )
+    p(Text)
 end
 
 Log(TypeWriter.Arguments)
