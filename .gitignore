@@ -5,3 +5,4 @@ GameFolder.path
 .vscode/
 
 /Build_*.ps1
+/Build_*.sh
