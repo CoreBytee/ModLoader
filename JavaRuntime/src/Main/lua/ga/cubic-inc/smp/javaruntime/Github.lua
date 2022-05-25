@@ -1,5 +1,6 @@
 local Github = Object:extend()
 
+local FS = require("fs")
 local Json = require("json")
 local Request = require("coro-http").request
 local function JsonRequest(Method, Url, Headers, Data)
@@ -79,8 +80,32 @@ function Github:FetchRemoteHashes()
                 {"User-Agent", "Modloader"}
             }
         )
-        Log(Data)
+        --Log(Data)
     end
+end
+
+
+local function FindFilesThatEndWith(StartPath, End, Tbl, SubPath)
+    if SubPath == nil then
+        SubPath = ""
+    end
+    if Tbl == nil then
+        Tbl = {}
+    end
+
+    for Index, FileName in pairs(FS.readdirSync(StartPath)) do
+        local Path = StartPath .. "/" .. FileName
+        local FileType = FS.statSync(Path).type
+        if FileType == "directory" then
+            FindFilesThatEndWith(Path, End, Tbl, SubPath .. FileName .. "/")
+        else
+            p(FileName)
+            if FileName:endswith(End) then
+                table.insert(Tbl, SubPath .. FileName)
+            end
+        end
+    end
+    return Tbl
 end
 
 function Github:FetchLocalHashes()
@@ -88,12 +113,17 @@ function Github:FetchLocalHashes()
         return self
     end
     self.Hashes.Local = {}
-    
+    p(
+        FindFilesThatEndWith(
+            Import("ga.cubic-inc.smp.javaruntime.GameFolder")(),
+            ".hash"
+        )
+    )
 end
 
 function Github:Sync()
-    self:FetchRemoteHashes()
     self:FetchLocalHashes()
+    --self:FetchRemoteHashes()
 end
 
 return Github
