@@ -1,15 +1,34 @@
 local Spawn = require("coro-spawn")
 
-local Commands = {
-    ["win32"] = {
-        Exe = "cmd.exe",
-        Args = {
-            "/c", "echo %JAVA_HOME%"
-        }
-    }
+
+
+local FindFunctions = { 
+    ["win32"] = function ()
+        
+    end,
+    ["darwin"] = function ()
+        local Result, Error = Spawn(
+            "/usr/libexec/java_home",
+            {}
+        )
+        Result.waitExit()
+        return table.concat(Result.stdout.read():Split("\n"))
+    end
 }
 
-return function ()
+return FindFunctions[TypeWriter.Os]
+
+--[[
+    local Commands = {
+        ["win32"] = {
+            Exe = "cmd.exe",
+            Args = {
+                "/c", "echo %JAVA_HOME%"
+            }
+        }
+    }
+
+    return function ()
     local Command = Commands[TypeWriter.Os]
     local Result, Error = Spawn(
         Command.Exe,
@@ -37,3 +56,4 @@ return function ()
         ), "/"
     )
 end
+]]
