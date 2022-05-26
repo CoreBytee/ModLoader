@@ -21,6 +21,7 @@ jobs:
           ./TypeWriter
           rm ./TypeWriter.zip
           rm ./TypeWriter
+          source ~/.bash_profiles
           
       - name: Test
         run: |
