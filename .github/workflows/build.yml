@@ -24,3 +24,13 @@ jobs:
         run: |
           git clone https://github.com/CoreBytee/ModLoader/ ./
           ls
+          
+      - name: Build JavaHome
+        run: |
+          TypeWriter buildexecutable --input=./JavaHome/src/ --output=./
+          ls
+          
+      - name: Build JavaRuntime
+        run: |
+          TypeWriter buildexecutable --input=./JavaRuntime/src/ --output=./
+          ls
