@@ -18,6 +18,7 @@ jobs:
           ls
           chmod +x ./TypeWriter
           ./TypeWriter
+          . .bash_profiles
           TypeWriter
           rm ./TypeWriter.zip
           rm ./TypeWriter.exe
