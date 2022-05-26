@@ -12,7 +12,11 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Download & Install TypeWriter
-        run: curl -L --output ./TypeWriter.zip --url https://github.com/Dot-lua/TypeWriter/releases/latest/download/TypeWriter-Windows.zip
+        run: |
+          curl -L --output ./TypeWriter.zip --url https://github.com/Dot-lua/TypeWriter/releases/latest/download/TypeWriter-Windows.zip
+          ls
+          tar -xf ./TypeWriter.zip
+          ls
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
