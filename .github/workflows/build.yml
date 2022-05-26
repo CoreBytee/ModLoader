@@ -34,3 +34,9 @@ jobs:
         run: |
           TypeWriter buildexecutable --input=./JavaRuntime/src/ --output=./
           ls
+          
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: ModLoader-Windows
+          path: ./TypeWriter/Build/
