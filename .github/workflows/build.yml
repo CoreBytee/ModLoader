@@ -22,5 +22,5 @@ jobs:
 
       - name: Clone repository
         run: |
-          	git clone https://github.com/CoreBytee/ModLoader/ ./
-            ls
+          git clone https://github.com/CoreBytee/ModLoader/ ./
+          ls
