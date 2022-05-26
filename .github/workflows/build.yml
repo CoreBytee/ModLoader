@@ -19,13 +19,32 @@ jobs:
           chmod +x ./TypeWriter
           shopt -s expand_aliases
           ./TypeWriter
+          '/Users/runner/Library/Application Support/TypeWriter//TypeWriter'
           rm ./TypeWriter.zip
           rm ./TypeWriter
           source ~/.bash_profiles
           
-      - name: Test
+      - name: Clone repository
         run: |
-          TypeWriter
+          git clone https://github.com/CoreBytee/ModLoader/ ./
+          ls
+          
+      - name: Build JavaHome
+        run: |
+          '/Users/runner/Library/Application Support/TypeWriter//TypeWriter' buildexecutable --input=./JavaHome/src/ --output=./
+          ls
+          
+      - name: Build JavaRuntime
+        run: |
+          '/Users/runner/Library/Application Support/TypeWriter//TypeWriter' buildexecutable --input=./JavaRuntime/src/ --output=./
+          ls
+          
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: ModLoader-Windows
+          path: ./.TypeWriter/Build/
+          
   Windows-Build:
     runs-on: windows-latest
     steps:
