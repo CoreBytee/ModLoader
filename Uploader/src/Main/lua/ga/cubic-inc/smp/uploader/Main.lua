@@ -3,24 +3,37 @@ local FS = require("fs")
 local RecurseRemove = require("coro-fs").rmrf
 local Hash = require("sha1")
 local Json = require("json")
+local PathLibrary = require("path")
+local Logger = TypeWriter.Logger
+
+
+local MetaGameFolder = TypeWriter.Here .. "/Meta/GameFolder/"
+local GameFolder = FS.readFileSync("./GameFolder.Path")
 
 local function ClearFolder(Path)
     RecurseRemove(Path)
     FS.mkdir(Path)
 end
 
+local Hashes = {}
 local function HashFile(DestinationPath, FileData)
-    print("Compiling hash")
+    local Location = table.concat(PathLibrary.resolve(DestinationPath):split(PathLibrary.resolve(MetaGameFolder))[2]:split("\\"), "/")
+    Logger.Info("Compiling hash for " .. Location)
     local SplitPath = DestinationPath:split("/")
     local HashData = {
         File = SplitPath[#SplitPath],
+        DestinationPath = Location,
         Size = #FileData,
         Hash = Hash(FileData)
     }
-    print("Writing hash")
-    FS.writeFileSync(DestinationPath .. ".hash", Json.encode(HashData, { indent = true, keyorder = {"File", "Size", "Hash"} }))
-    print("Wrote hash")
-    print()
+    p(HashData)
+    table.insert(Hashes, HashData)
+    Logger.Info("Compiled hash")
+    Logger.Info()
+end
+
+local function SaveHashes(To)
+    FS.writeFileSync(To .. "/Hashes.json", Json.encode(Hashes, { indent = true, keyorder = {"File", "Size", "Hash"} }))
 end
 
 local function CopyFile(Source, Destination)
@@ -55,8 +68,6 @@ local function CopyFolder(Source, Destination)
     until Index == Length
 end
 
-local MetaGameFolder = TypeWriter.Here .. "/Meta/GameFolder/"
-local GameFolder = FS.readFileSync("./GameFolder.Path")
 
 print("MetaGameFolder: " .. MetaGameFolder)
 print("GameFolder: " .. GameFolder)
@@ -87,3 +98,5 @@ CopyFile(
     GameFolder .. "/servers.dat",
     MetaGameFolder .. "/servers.dat"
 )
+
+SaveHashes(TypeWriter.Here .. "/Meta/")
