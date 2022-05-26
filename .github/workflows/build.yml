@@ -8,6 +8,17 @@ on:
   workflow_dispatch:
 
 jobs:
+  Mac-Build:
+    runs-on: macos-latest
+    steps:
+      - name: Download & Install TypeWriter
+        run: |
+          curl -L --output ./TypeWriter.zip --url https://github.com/Dot-lua/TypeWriter/releases/latest/download/TypeWriter-MacOs.zip
+          tar -xf ./TypeWriter.zip
+          ./TypeWriter
+          TypeWriter
+          rm ./TypeWriter.zip
+          rm ./TypeWriter.exe
   Windows-Build:
     runs-on: windows-latest
     steps:
