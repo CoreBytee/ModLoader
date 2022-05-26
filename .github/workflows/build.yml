@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  Windows-Build:
+    runs-on: windows-latest
+    steps:
+      - name: Download & Install TypeWriter
+        run: |
+          curl -L --output ./TypeWriter.zip --url https://github.com/Dot-lua/TypeWriter/releases/latest/download/TypeWriter-Windows.zip
+          tar -xf ./TypeWriter.zip
+          ./TypeWriter.exe
+          TypeWriter
+          rm ./TypeWriter.zip
+          rm ./TypeWriter.exe
+
+      - name: Clone repository
+        run: |
+          git clone https://github.com/CoreBytee/ModLoader/ ./
+          ls
