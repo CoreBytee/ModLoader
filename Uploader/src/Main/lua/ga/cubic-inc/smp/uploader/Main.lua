@@ -8,7 +8,7 @@ local Logger = TypeWriter.Logger
 
 
 local MetaGameFolder = TypeWriter.Here .. "/Meta/GameFolder/"
-local GameFolder = FS.readFileSync("./GameFolder.Path")
+local GameFolder = FS.readFileSync(TypeWriter.ExeFolder .. "/TestingGameFolder.Path")
 
 local function ClearFolder(Path)
     RecurseRemove(Path)
