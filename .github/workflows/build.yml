@@ -17,12 +17,14 @@ jobs:
           tar -xf ./TypeWriter.zip
           ls
           chmod +x ./TypeWriter
-          ./TypeWriter
           shopt -s expand_aliases
-          '/Users/runner/Library/Application Support/TypeWriter//TypeWriter'
-          TypeWriter
+          ./TypeWriter
           rm ./TypeWriter.zip
-          rm ./TypeWriter.exe
+          rm ./TypeWriter
+          
+      - name: Test
+        run: |
+          TypeWriter
   Windows-Build:
     runs-on: windows-latest
     steps:
