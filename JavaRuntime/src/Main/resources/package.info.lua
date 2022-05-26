@@ -16,7 +16,8 @@ return { InfoVersion = 1, -- Dont touch this
 
     Dependencies = {
         Luvit = {
-            "creationix/coro-spawn"
+            "creationix/coro-spawn",
+            "creationix/coro-fs"
         },
         Git = {},
         Dua = {}
@@ -29,7 +30,7 @@ return { InfoVersion = 1, -- Dont touch this
     },
 
     Entrypoints = {
-        Main = "ga.cubic-inc.smp.javaruntime"
+        Main = "ga.CubicInc.SMP.JavaRuntime"
     }
 
 }
