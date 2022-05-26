@@ -4,7 +4,7 @@ local Spawn = require("coro-spawn")
 
 local FindFunctions = { 
     ["win32"] = function ()
-        
+        return process.env.JAVA_HOME
     end,
     ["darwin"] = function ()
         local Result, Error = Spawn(
