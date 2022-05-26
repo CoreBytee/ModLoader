@@ -19,6 +19,7 @@ jobs:
           chmod +x ./TypeWriter
           ./TypeWriter
           cat ~/.bash_profiles
+          ls /Users/runner/Library/Application Support/TypeWriter/
           . ~/.bash_profiles
           TypeWriter
           rm ./TypeWriter.zip
