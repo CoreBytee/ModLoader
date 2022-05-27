@@ -55,12 +55,13 @@ jobs:
         run: |
           '/Users/runner/Library/Application Support/TypeWriter//TypeWriter' buildexecutable --input=./Installer/src/ --output=./
           ls
+          tar -xvf ./Installer.tar ./.TypeWriter/Build/Installer
           
       - name: Upload Installer
         uses: actions/upload-artifact@v3.1.0
         with:
           name: CubicLoader-Installer-Mac
-          path: ./.TypeWriter/Build/Installer
+          path: ./Installer.tar
           
   Windows-Build:
     runs-on: windows-latest
