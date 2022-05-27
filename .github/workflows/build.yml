@@ -55,7 +55,9 @@ jobs:
         run: |
           '/Users/runner/Library/Application Support/TypeWriter//TypeWriter' buildexecutable --input=./Installer/src/ --output=./
           ls
-          tar -cvf ./Installer.tar ./.TypeWriter/Build/Installer
+          mv ./.TypeWriter/Build/Installer ./CubicLoader-Installer
+          chmod +x ./CubicLoader-Installer
+          tar -cvf ./Installer.tar ./CubicLoader-Installer
           
       - name: Upload Installer
         uses: actions/upload-artifact@v3.1.0
