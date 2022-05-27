@@ -10,7 +10,7 @@
   "Ropes": true,
   "EnchantmentPrecision": true,
   "EnchantmentSpeed": true,
-  "Wrench": true,
+  "Wrench": false,
   "CopperPatina": true,
   "AmethystLamp": {
     "enabled": true,
@@ -37,6 +37,6 @@
     "enabled": true,
     "duration": 5
   },
-  "HastePotions": true,
+  "HastePotions": false,
   "BundleRecipe": true
 }
