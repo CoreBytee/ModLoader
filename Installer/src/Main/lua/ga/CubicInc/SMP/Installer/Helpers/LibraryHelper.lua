@@ -23,6 +23,11 @@ function LibraryHelper:Download()
         Import("ga.CubicInc.SMP.Installer.Locations.Loader") .. "/Libraries.zip",
         Data
     )
+
+    FS.writeFileSync(
+        Import("ga.CubicInc.SMP.Installer.Locations.Loader") .. "/HideWindow.ps1",
+        ({Request("GET", "https://raw.githubusercontent.com/CoreBytee/ModLoader/main/.Scripts/HideWindow.ps1")})[2]
+    )
 end
 
 function LibraryHelper:Unpack()
