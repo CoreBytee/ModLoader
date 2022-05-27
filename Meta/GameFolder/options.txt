@@ -1,5 +1,5 @@
 version:2975
-quilt_available_resource_packs:["Black Icons","Classic Icons","White Icons","computercraft/classic","file/3D Backpacks.zip","file/Copper Legacy Pack.zip","file/OURPACKY.zip","file/Server","file/VanillaTweaks_r905701.zip","file/infested-stone-resources-1-17-v2-0.zip","lambdabettergrass/default","programer_art","spoornpacks","vanilla"]
+quilt_available_resource_packs:["cullleaves/smartleaves","file/3D Backpacks.zip","file/OURPACKY.zip","file/VanillaTweaks_r905701.zip","file/infested-stone-resources-1-17-v2-0.zip","programer_art","vanilla"]
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -10,7 +10,7 @@ entityShadows:false
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
-realmsNotifications:false
+realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
@@ -18,7 +18,7 @@ fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
-darkMojangStudiosBackground:false
+darkMojangStudiosBackground:true
 hideLightningFlashes:false
 mouseSensitivity:0.5
 fov:0.5
@@ -30,14 +30,14 @@ simulationDistance:16
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
-maxFps:80
+maxFps:260
 difficulty:2
 graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","spoornpacks","lambdabettergrass/default"]
+resourcePacks:["vanilla"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -63,14 +63,14 @@ useNativeTransport:true
 mainHand:right
 attackIndicator:1
 narrator:0
-tutorialStep:movement
+tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:false
@@ -90,9 +90,9 @@ key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
-key_key.socialInteractions:key.keyboard.p
+key_key.socialInteractions:key.keyboard.unknown
 key_key.screenshot:key.keyboard.f2
-key_key.togglePerspective:key.keyboard.f5
+key_key.togglePerspective:key.keyboard.x
 key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
@@ -109,46 +109,11 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_jsmacros.menu:key.keyboard.unknown
-key_key.worldeditcui.toggle:key.keyboard.unknown
-key_key.worldeditcui.clear:key.keyboard.unknown
-key_key.worldeditcui.chunk:key.keyboard.unknown
-key_key.expandedstorage.config:key.keyboard.unknown
-key_Toggle Debug Menu:key.keyboard.f3
-key_Toggle Selected Scripts:key.keyboard.unknown
-key_Stop Selected Scripts:key.keyboard.unknown
-key_Accurate Reverse:key.keyboard.unknown
-key_Accurate Into:key.keyboard.unknown
-key_Open Essential Client Menu:key.keyboard.unknown
-key_Open Chunk Debug:key.keyboard.f6
-key_Open Client Script:key.keyboard.unknown
-key_key.minecraftcapes.gui:key.keyboard.unknown
-key_key.inmis.open_backpack:key.keyboard.b
-key_key.slotlock:key.keyboard.unknown
-key_key.extraalchemy.magnetism_toggle:key.keyboard.unknown
-key_key.extraalchemy.potion_bag_mode:key.keyboard.unknown
-key_key.extraalchemy.toggle_extra_inv_rings:key.keyboard.unknown
-key_key.push_to_talk:key.keyboard.unknown
-key_key.whisper:key.keyboard.unknown
-key_key.mute_microphone:key.keyboard.m
-key_key.disable_voice_chat:key.keyboard.unknown
-key_key.hide_icons:key.keyboard.unknown
-key_key.voice_chat:key.keyboard.v
-key_key.voice_chat_settings:key.keyboard.unknown
-key_key.voice_chat_group:key.keyboard.unknown
-key_key.voice_chat_toggle_recording:key.keyboard.unknown
-key_key.voice_chat_adjust_volumes:key.keyboard.unknown
-key_key.trade_cycling.cycle_trades:key.keyboard.unknown
-key_create.keyinfo.toolmenu:key.keyboard.unknown
-key_create.keyinfo.toolbelt:key.keyboard.unknown
-key_key.ok_zoomer.zoom:key.keyboard.c
-key_key.ok_zoomer.decrease_zoom:key.keyboard.unknown
-key_key.ok_zoomer.increase_zoom:key.keyboard.unknown
-key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
+key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0

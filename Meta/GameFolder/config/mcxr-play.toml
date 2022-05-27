@@ -1,8 +1,0 @@
-walkDirection = "Head"
-handPitchAdjust = 30.0
-swimDirection = "Head"
-SSAA = 1.0
-flyDirection = "Head"
-pauseMCXR = false
-disableMCXR = true
-
