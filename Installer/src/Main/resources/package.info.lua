@@ -2,9 +2,9 @@
 
 return { InfoVersion = 1, -- Dont touch this
 
-    ID = "template", -- A unique id 
-    Name = "Template",
-    Description = "A typewriter template",
+    ID = "Installer", -- A unique id 
+    Name = "Installer",
+    Description = "Installer",
     Version = "1.0.0",
 
     Author = {
@@ -16,21 +16,21 @@ return { InfoVersion = 1, -- Dont touch this
 
     Dependencies = {
         Luvit = {
-            -- Luvit dependencies ("username/projectname")
+            "creationix/coro-spawn",
+            "creationix/coro-fs",
         },
         Git = {},
         Dua = {}
     },
 
     Contact = {
-        Website = "https://cubic-inc.ga",
-        Source = "https://github.com/Dot-lua/TypeWriter/",
+        Website = "",
+        Source = "",
         Socials = {}
     },
 
     Entrypoints = {
-        Main = "ga.corebyte.template.Main"
-        -- CubyPackage = "some.other.entry.caused.by.another.package", -- a package can call another packages entrypoints
+        Main = "ga.CubicInc.SMP.Installer"
     }
 
 }

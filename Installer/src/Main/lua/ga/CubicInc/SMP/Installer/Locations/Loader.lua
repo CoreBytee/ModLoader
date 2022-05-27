@@ -1,0 +1,1 @@
+return Import("ga.CubicInc.SMP.Installer.Locations.GameFolder") .. "/CubicLoader/"
