@@ -107,9 +107,10 @@ jobs:
         run: |
           TypeWriter buildexecutable --input=./Installer/src/ --output=./
           ls
+          mv ./.TypeWriter/Build/Installer.exe ./CubicLoader-Installer.exe
           
       - name: Upload Installer
         uses: actions/upload-artifact@v3.1.0
         with:
           name: CubicLoader-Installer-Windows
-          path: ./.TypeWriter/Build/Installer.exe
+          path: ./CubicLoader-Installer.exe
