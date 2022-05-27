@@ -1,5 +1,5 @@
 {
-  "config_screen_list": "TRUE",
+  "config_screen_list": "MODMENU",
   "background_texture": "minecraft:textures/block/deepslate.png",
-  "special_hats": false
+  "special_hats": true
 }

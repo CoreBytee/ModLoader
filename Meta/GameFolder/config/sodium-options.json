@@ -2,7 +2,7 @@
   "quality": {
     "weather_quality": "DEFAULT",
     "leaves_quality": "DEFAULT",
-    "enable_vignette": false
+    "enable_vignette": true
   },
   "advanced": {
     "arena_memory_allocator": "ASYNC",
@@ -21,6 +21,6 @@
     "use_block_face_culling": true
   },
   "notifications": {
-    "hide_donation_button": true
+    "hide_donation_button": false
   }
 }
