@@ -15,14 +15,14 @@ globalExecutorParallelism = "default"
 
 # Configuration for threaded world generation
 [threadedWorldGen]
-	# (Default: false) Whether to enable this feature
-	enabled = "default"
 	# (Default: true) Whether to allow feature generation (world decorations like trees, ores and etc.) run in parallel 
 	# (may cause incompatibility with other mods)
 	allowThreadedFeatures = "default"
 	# (Default: true) Whether to allow reducing lock radius 
 	# (may cause incompatibility with other mods)
 	reduceLockRadius = "default"
+	# (Default: false) Whether to enable this feature
+	enabled = "default"
 
 # Configuration for async scheduling system
 [asyncScheduling]
@@ -32,19 +32,16 @@ globalExecutorParallelism = "default"
 
 # Configuration for vanilla worldgen optimizations
 [vanillaWorldGenOptimizations]
+	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen 
+	# (may cause incompatibility with other mods) 
+	optimizeAquifer = "default"
 	# (Default: true) Whether to enable End Biome Cache to accelerate The End worldgen 
 	# This is no longer included in lithium-fabric 
 	# (may cause incompatibility with other mods) 
 	useEndBiomeCache = "default"
-	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen 
-	# (may cause incompatibility with other mods) 
-	optimizeAquifer = "default"
 
 # Configuration for general optimizations
 [generalOptimizations]
-	# (Default: true) Whether to let async chunk request no longer block server thread 
-	# (may cause incompatibility with other mods) 
-	optimizeAsyncChunkRequest = "default"
 	# (Default: -1) Defines which chunk compression should be used 
 	# -1 for Vanilla default (also prevents mixin modifying vanilla default  
 	# from being applied) 
@@ -67,6 +64,9 @@ globalExecutorParallelism = "default"
 	# Incompatible with Dimensional Threading (dimthread)
 	#
 	doMidTickChunkTasks = "default"
+	# (Default: true) Whether to let async chunk request no longer block server thread 
+	# (may cause incompatibility with other mods) 
+	optimizeAsyncChunkRequest = "default"
 
 	# Configuration for auto-save
 	[generalOptimizations.autoSave]
@@ -85,17 +85,17 @@ globalExecutorParallelism = "default"
 
 # Configuration for no-tick view distance
 [noTickViewDistance]
-	# (Default: true) Weather to enable no-tick view distance
-	enabled = "default"
-	# (Default: 6) No-tick view distance updates per tick 
-	# Lower this for a better latency and higher this for a faster loading
-	updatesPerTick = "default"
 	# (Default: false) Whether to use compatibility mode to send chunks 
 	# This may fix some mod compatibility issues
 	compatibilityMode = "default"
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	# This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"
+	# (Default: 6) No-tick view distance updates per tick 
+	# Lower this for a better latency and higher this for a faster loading
+	updatesPerTick = "default"
+	# (Default: true) Weather to enable no-tick view distance
+	enabled = "default"
 
 # Configuration for clientside functions
 [clientSide]

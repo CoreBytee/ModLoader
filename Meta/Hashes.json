@@ -1,4 +1,9 @@
 [{
+    "File":"3dskinlayers-fabric-1.4.5-mc1.18.2.jar",
+    "Size":437768,
+    "Hash":"9b52fa801357ca52ed4e4eb22daa9365b40f7f2d",
+    "DestinationPath":"mods/3dskinlayers-fabric-1.4.5-mc1.18.2.jar"
+  },{
     "File":"AdditionalAdditions-4.0.3.jar",
     "Size":4160056,
     "Hash":"52e484e9968a4f62c9d0e0dd1df321a74110e318",
@@ -129,6 +134,11 @@
     "Hash":"c2574017b53faff1f1ac2a46ee7baca234e62400",
     "DestinationPath":"mods/effective-1.2.1.jar"
   },{
+    "File":"ellemes-container-library-1.4.0-beta.1+1.18.2-fabric.jar",
+    "Size":99934,
+    "Hash":"c3776fb7b60f1ee33b8d1e3d969e15f9f3589d6f",
+    "DestinationPath":"mods/ellemes-container-library-1.4.0-beta.1+1.18.2-fabric.jar"
+  },{
     "File":"elytratrinket-fabric-3.0.0-1.18.1.jar",
     "Size":29731,
     "Hash":"70a2317527da7712416f17207ce4a21c272f7a3f",
@@ -153,6 +163,16 @@
     "Size":10301,
     "Hash":"428d135b2cc374b790ea49041c5e2814c6ceb000",
     "DestinationPath":"mods/expanded-weapon-enchanting-1.0.2.jar"
+  },{
+    "File":"expandedstorage-7.4.0-beta.2+1.18.2-fabric.jar",
+    "Size":413607,
+    "Hash":"4d91d898bd9c34fd6f692e985a0b374e9be90e70",
+    "DestinationPath":"mods/expandedstorage-7.4.0-beta.2+1.18.2-fabric.jar"
+  },{
+    "File":"Fabric-1.18-SmoothSwapping-0.4.4.jar",
+    "Size":919823,
+    "Hash":"1078b602073479277cb110c20c17b86db55741e6",
+    "DestinationPath":"mods/Fabric-1.18-SmoothSwapping-0.4.4.jar"
   },{
     "File":"fabric-carpet-1.18.2-1.4.69+v220331.jar",
     "Size":1479637,
@@ -189,6 +209,16 @@
     "Hash":"0564401b5be9b9e510dee00faa0979ea8a822ac0",
     "DestinationPath":"mods/here-be-no-dragons-1.0.0.jar"
   },{
+    "File":"Highlighter-1.18-fabric-1.1.2.jar",
+    "Size":25246,
+    "Hash":"726a560553293ca5ca0ea5e2138730bb4252b4be",
+    "DestinationPath":"mods/Highlighter-1.18-fabric-1.1.2.jar"
+  },{
+    "File":"Iceberg-1.18.2-fabric-1.0.38.jar",
+    "Size":78177,
+    "Hash":"a77c1d4af4f974ca331b330fdf6c6ddcc7c2ffdb",
+    "DestinationPath":"mods/Iceberg-1.18.2-fabric-1.0.38.jar"
+  },{
     "File":"illuminations-1.10.4.jar",
     "Size":1265759,
     "Hash":"076c8fb7929dad53b5c1a727ec34a80d980c6d1f",
@@ -208,6 +238,11 @@
     "Size":152470,
     "Hash":"2c043c9c23d21c7d900637f88bab9d2075eaa124",
     "DestinationPath":"mods/inmis-2.6.0-1.18.2.jar"
+  },{
+    "File":"InventoryProfilesNext-fabric-1.18.2-1.4.0.jar",
+    "Size":1518439,
+    "Hash":"e64426b95a2997ea4e6a31884401697a2040b888",
+    "DestinationPath":"mods/InventoryProfilesNext-fabric-1.18.2-1.4.0.jar"
   },{
     "File":"InvView-1.4.8-1.18+.jar",
     "Size":147328,
@@ -349,6 +384,11 @@
     "Hash":"f839863a6be7014b8d80058ea1f361521148d049",
     "DestinationPath":"mods/sodium-fabric-mc1.18.2-0.4.1+build.15.jar"
   },{
+    "File":"stendhal-1.3.1-1.18.jar",
+    "Size":469915,
+    "Hash":"a6de2a9487d13dbc48745be46e3b48279679c087",
+    "DestinationPath":"mods/stendhal-1.3.1-1.18.jar"
+  },{
     "File":"trinketofundying-fabric-2.0.1-1.18.jar",
     "Size":28814,
     "Hash":"70f8a18fb914e170342b0657ecc18847f2800dc2",
@@ -421,7 +461,7 @@
   },{
     "File":"c2me.toml",
     "Size":4651,
-    "Hash":"1c627a65736055c9d32c3a12a2f6c7a3482d5dd2",
+    "Hash":"9de357a417619eb05d90cd24603cdab4333896d7",
     "DestinationPath":"config/c2me.toml"
   },{
     "File":"computercraft-client.toml",
@@ -431,17 +471,17 @@
   },{
     "File":"create-client.toml",
     "Size":4508,
-    "Hash":"ab9e2d4f98d07c2527f9bb836b3ac5aa8e94e902",
+    "Hash":"22a2047aa2b83f8b31461ee2469bb602bdaef365",
     "DestinationPath":"config/create-client.toml"
   },{
     "File":"create-common.toml",
     "Size":1245,
-    "Hash":"396226f7841964d1221bcc66e165b2fc7798c2b7",
+    "Hash":"4b122c519421a07f13960898fe969aaef4d64cc6",
     "DestinationPath":"config/create-common.toml"
   },{
     "File":"createaddition-common.toml",
     "Size":4133,
-    "Hash":"8044cbd3a01bd3a18ff4b3cbabb3d66f80e6b803",
+    "Hash":"30c4910766f424ac30c7802fa5349cdf03dd5c40",
     "DestinationPath":"config/createaddition-common.toml"
   },{
     "File":"croptopia.conf",
@@ -453,6 +493,11 @@
     "Size":153,
     "Hash":"4f7e9c0e03d8f753897b001741e19379d05386a4",
     "DestinationPath":"config/effective.json"
+  },{
+    "File":"expandedstorage.json",
+    "Size":136,
+    "Hash":"acc9c9936fbd2f07ddf7a76ee5641d589e60c240",
+    "DestinationPath":"config/expandedstorage.json"
   },{
     "File":"expanded_armor_enchanting.json",
     "Size":44,
@@ -476,7 +521,7 @@
   },{
     "File":"indigo-renderer.properties",
     "Size":258,
-    "Hash":"4084c3a8667e973aa6f2aaa7224e25207172a748",
+    "Hash":"b5ea3c697e6ab2873e03fbc91c6b7412dd55c943",
     "DestinationPath":"config/fabric/indigo-renderer.properties"
   },{
     "File":"ferritecore.mixin.properties",
@@ -494,14 +539,19 @@
     "Hash":"84bfc17629102cebdd2add613d55879bcfd84a79",
     "DestinationPath":"config/friendsandfoes.json"
   },{
+    "File":"highlighter.json5",
+    "Size":345,
+    "Hash":"e70f500b3e0d013da489671812d1493d40c8dfc4",
+    "DestinationPath":"config/highlighter.json5"
+  },{
     "File":"illuminations.properties",
     "Size":3759,
-    "Hash":"e9204c206d42080d45ece821ab8fbd648f37923d",
+    "Hash":"14f82400e4f9b822a61ccab06fb66ce29b77dc23",
     "DestinationPath":"config/illuminations.properties"
   },{
     "File":"indium-renderer.properties",
     "Size":256,
-    "Hash":"44d405361c346033a0a12d08ced73fdec4135172",
+    "Hash":"6e0519e7112eb07649c81978940199b83a8ffe1a",
     "DestinationPath":"config/indium-renderer.properties"
   },{
     "File":"inmis.json",
@@ -509,14 +559,24 @@
     "Hash":"85bf2877fabf155a8dc625df490572605cecfaf6",
     "DestinationPath":"config/inmis.json"
   },{
+    "File":"exampleIntegrationHints.json",
+    "Size":1450,
+    "Hash":"2bedb4d58a778b937dd9da01c50a46af9887709b",
+    "DestinationPath":"config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
+  },{
+    "File":"inventoryprofiles.json",
+    "Size":57,
+    "Hash":"58b81b870399a90daad1a3249c68c2d5bd18abf9",
+    "DestinationPath":"config/inventoryprofilesnext/inventoryprofiles.json"
+  },{
     "File":"lambdabettergrass.toml",
     "Size":296,
     "Hash":"ac8c39d00ebba9eee7e371a37d28086433b65799",
     "DestinationPath":"config/lambdabettergrass.toml"
   },{
     "File":"lambdynlights.toml",
-    "Size":694,
-    "Hash":"24c9f7524f5798ddebf70b3ba8952813b4dd3b6b",
+    "Size":1840,
+    "Hash":"b007c87f0abb448006726ffd633d3c386731dbd4",
     "DestinationPath":"config/lambdynlights.toml"
   },{
     "File":"libgui.json5",
@@ -556,7 +616,7 @@
   },{
     "File":"peripheralworks-common.toml",
     "Size":1295,
-    "Hash":"4c62982eb5a483d39fcc964e092b79a6d3b74652",
+    "Hash":"16c8f5aafc82a2f4b955bf21337e89fea41761d1",
     "DestinationPath":"config/peripheralworks-common.toml"
   },{
     "File":"client.json",
@@ -585,9 +645,19 @@
     "DestinationPath":"config/respawnablepets.json"
   },{
     "File":"config.json5",
-    "Size":4966,
-    "Hash":"37cd1e91f6dcdefca71d0f586c26d2e051750be8",
+    "Size":4969,
+    "Hash":"6c117f9d3bb1ccc9c9571fc86034294dde5a768a",
     "DestinationPath":"config/roughlyenoughitems/config.json5"
+  },{
+    "File":"skinlayers.json",
+    "Size":366,
+    "Hash":"a9c360a5d3f5f66b4d9a7b62cb2723cfdda52177",
+    "DestinationPath":"config/skinlayers.json"
+  },{
+    "File":"smoothswapping.json",
+    "Size":74,
+    "Hash":"a3b135f7908c976b5433882a3c5e17a06a0c030f",
+    "DestinationPath":"config/smoothswapping.json"
   },{
     "File":"sodium-mixins.properties",
     "Size":266,
@@ -599,9 +669,19 @@
     "Hash":"93ca40d20769fef06a59a289f0d90d7377ce44cc",
     "DestinationPath":"config/sodium-options.json"
   },{
+    "File":"stendhal.properties",
+    "Size":323,
+    "Hash":"bc1f0c05b90b80f434109cec84272adb76428bcd",
+    "DestinationPath":"config/stendhal/stendhal.properties"
+  },{
+    "File":"tr7zwDonorSettings.json",
+    "Size":37,
+    "Hash":"6d1993e730a8f0e0b531b49bf0014fb9cdbc2f8f",
+    "DestinationPath":"config/tr7zwDonorSettings.json"
+  },{
     "File":"turtlematic-common.toml",
-    "Size":4128,
-    "Hash":"e7a4880a8232c258ec8f890f8bc0eeeef75385f6",
+    "Size":4116,
+    "Hash":"8df71798ca95d87709f4dcef84d6cc902a02f779",
     "DestinationPath":"config/turtlematic-common.toml"
   },{
     "File":"blacklist.json",

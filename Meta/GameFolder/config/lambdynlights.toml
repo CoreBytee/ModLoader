@@ -20,5 +20,58 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
+				chicken = true
+				bee = true
+				axolotl = true
+				egg = true
+				trader_llama = true
+				cow = true
+				fox = true
+				chest_minecart = true
+				tropical_fish = true
+				pig = true
+				slime = true
+				skeleton = true
+				bat = true
+				rabbit = true
+				zombie = true
+				drowned = true
+				sheep = true
+				experience_orb = true
+				player = true
+				dolphin = true
+				illusioner = true
+				item = true
+				stray = true
+				turtle = true
+				wolf = true
+				villager = true
+				wandering_trader = true
+				salmon = true
+				zombie_villager = true
+				polar_bear = true
+				horse = true
+				phantom = true
+				cod = true
+				glow_squid = true
+				witch = true
 				glow_item_frame = false
+				squid = true
+				spider = true
+				creeper = true
+				enderman = true
+
+			[light_sources.settings.entities.probablychests]
+				stone_chest_mimic = true
+				gold_chest_mimic = true
+				lush_chest_mimic = true
+				normal_chest_mimic = true
+				rocky_chest_mimic = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				glare = true
+				copper_golem = true
+				moobloom = true
+				mauler = true
+				iceologer = true
 
