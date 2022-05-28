@@ -1,9 +1,4 @@
 [{
-    "File":"3dskinlayers-fabric-1.4.5-mc1.18.2.jar",
-    "Size":437768,
-    "Hash":"9b52fa801357ca52ed4e4eb22daa9365b40f7f2d",
-    "DestinationPath":"mods/3dskinlayers-fabric-1.4.5-mc1.18.2.jar"
-  },{
     "File":"AdditionalAdditions-4.0.3.jar",
     "Size":4160056,
     "Hash":"52e484e9968a4f62c9d0e0dd1df321a74110e318",
@@ -13,6 +8,11 @@
     "Size":4208573,
     "Hash":"54dc846236010b1e22bfdb6b7d06a669f6ccfb5a",
     "DestinationPath":"mods/Adorn-3.5.0+1.18.2-fabric.jar"
+  },{
+    "File":"Adorn-3.5.0+1.18.2-forge.jar",
+    "Size":4076898,
+    "Hash":"d3e6bd2f50ae3692e55f2cd217d7684c17aa3be4",
+    "DestinationPath":"mods/Adorn-3.5.0+1.18.2-forge.jar"
   },{
     "File":"advancementinfo-1.18.2-fabric0.47.10-1.3.1.jar",
     "Size":1442876,
@@ -34,10 +34,10 @@
     "Hash":"71ac17ff1414782def879309a06abbe69142e7bc",
     "DestinationPath":"mods/appliedenergistics2-11.0.0.jar"
   },{
-    "File":"architectury-4.4.64.jar",
-    "Size":573349,
-    "Hash":"b18f2133120c96ba40f4aec8ae6ac4a3e35f1f08",
-    "DestinationPath":"mods/architectury-4.4.64.jar"
+    "File":"architectury-4.4.68.jar",
+    "Size":573673,
+    "Hash":"25caa4222a307016cb45cf8b6d27c09b507e2196",
+    "DestinationPath":"mods/architectury-4.4.68.jar"
   },{
     "File":"axolotl-item-fix-1.1.3.jar",
     "Size":43657,
@@ -49,35 +49,15 @@
     "Hash":"098653c88addec413623a78c20e2f001e5647079",
     "DestinationPath":"mods/badpackets-fabric-0.1.2.jar"
   },{
-    "File":"badstdout-1.1.1-1.18.jar",
-    "Size":40538,
-    "Hash":"d2867a49691ea3c395596ab7f16744b059b9c13a",
-    "DestinationPath":"mods/badstdout-1.1.1-1.18.jar"
-  },{
     "File":"BetterF3-1.2.5-Fabric-1.18.2.jar",
     "Size":1400327,
     "Hash":"457734b8099afbda9218c59aa6f197e2a2cc8d65",
     "DestinationPath":"mods/BetterF3-1.2.5-Fabric-1.18.2.jar"
   },{
-    "File":"betterleads-1.0.1+1.18.1.jar",
-    "Size":1301254,
-    "Hash":"7ff9c22b2b15b4c2d5e059ee3a58b10abdbc8942",
-    "DestinationPath":"mods/betterleads-1.0.1+1.18.1.jar"
-  },{
-    "File":"biomemakeover-FABRIC-1.18.2-1.4.23.jar",
-    "Size":6291697,
-    "Hash":"b6d690e796096923337c5042e728b969b4dd6c57",
-    "DestinationPath":"mods/biomemakeover-FABRIC-1.18.2-1.4.23.jar"
-  },{
     "File":"bitsandchisels-2.6.8.jar",
     "Size":303324,
     "Hash":"a632973972e44107d24be34c6ade9ad01519babc",
     "DestinationPath":"mods/bitsandchisels-2.6.8.jar"
-  },{
-    "File":"blockus-2.4.6+1.18.2.jar",
-    "Size":6224055,
-    "Hash":"1ed30fe90d26302c44a3414bb7bbb65c9a8d4950",
-    "DestinationPath":"mods/blockus-2.4.6+1.18.2.jar"
   },{
     "File":"c2me-fabric-mc1.18.2-0.2.0+alpha.7.0-all.jar",
     "Size":1290009,
@@ -104,6 +84,11 @@
     "Hash":"a4de5291a26ac7fb2e1d0bc3ef244dda371dfd8f",
     "DestinationPath":"mods/chisel-1.4.5+1.18.x.jar"
   },{
+    "File":"cloth-config-6.2.62-fabric.jar",
+    "Size":1122859,
+    "Hash":"bc0f07805823fdab5c7376d8d2b314c1b109d402",
+    "DestinationPath":"mods/cloth-config-6.2.62-fabric.jar"
+  },{
     "File":"crawl-0.10.6.jar",
     "Size":98132,
     "Hash":"efe4f2852b4f76c870771131e232701de6ca09e3",
@@ -124,45 +109,30 @@
     "Hash":"199a839806d471ff5b44e65b084998e10ec176ef",
     "DestinationPath":"mods/createplus-1.0.0-beta4.jar"
   },{
-    "File":"Croptopia-1.18.2-FABRIC-2.0.3.jar",
-    "Size":2462717,
-    "Hash":"fd26292fc51bc1f726eeecbaf91630019a8cad2c",
-    "DestinationPath":"mods/Croptopia-1.18.2-FABRIC-2.0.3.jar"
+    "File":"Croptopia-1.18.2-FABRIC-2.0.1.jar",
+    "Size":2455175,
+    "Hash":"2aa5f12a97f99f32a3c3b8a13f547491655f7662",
+    "DestinationPath":"mods/Croptopia-1.18.2-FABRIC-2.0.1.jar"
   },{
-    "File":"cullleaves-2.3.2.jar",
-    "Size":82789,
-    "Hash":"9bc9c61f0a7dc6c765118a0527850b91847608cb",
-    "DestinationPath":"mods/cullleaves-2.3.2.jar"
+    "File":"crossstitch-0.1.4.jar",
+    "Size":5038,
+    "Hash":"9e53c001e4035a330d8f87438d5c31df849e7d43",
+    "DestinationPath":"mods/crossstitch-0.1.4.jar"
   },{
     "File":"Decorative+Blocks-fabric-1.18.2-2.1.0.jar",
     "Size":460743,
     "Hash":"2574749d52b69cea643898ddf0dc977be174f13e",
     "DestinationPath":"mods/Decorative+Blocks-fabric-1.18.2-2.1.0.jar"
   },{
-    "File":"doggomod-1.1.1.jar",
-    "Size":133212,
-    "Hash":"d08251a8aaea757dbe5c5ccecd0b52702c08fd34",
-    "DestinationPath":"mods/doggomod-1.1.1.jar"
-  },{
     "File":"effective-1.2.1.jar",
     "Size":1722910,
     "Hash":"c2574017b53faff1f1ac2a46ee7baca234e62400",
     "DestinationPath":"mods/effective-1.2.1.jar"
   },{
-    "File":"ellemes-container-library-1.4.0-beta.2+1.18.2-quilt.jar",
-    "Size":99971,
-    "Hash":"461b291a2a1072dc9e9ede616110d9e1d93364fa",
-    "DestinationPath":"mods/ellemes-container-library-1.4.0-beta.2+1.18.2-quilt.jar"
-  },{
     "File":"elytratrinket-fabric-3.0.0-1.18.1.jar",
     "Size":29731,
     "Hash":"70a2317527da7712416f17207ce4a21c272f7a3f",
     "DestinationPath":"mods/elytratrinket-fabric-3.0.0-1.18.1.jar"
-  },{
-    "File":"entityculling-fabric-mc1.18-1.5.1.jar",
-    "Size":44983,
-    "Hash":"523c57485a469c581d7a9bd18ec86c7a92a0ec93",
-    "DestinationPath":"mods/entityculling-fabric-mc1.18-1.5.1.jar"
   },{
     "File":"expanded-armor-enchanting-1.0.2.jar",
     "Size":10450,
@@ -184,16 +154,6 @@
     "Hash":"428d135b2cc374b790ea49041c5e2814c6ceb000",
     "DestinationPath":"mods/expanded-weapon-enchanting-1.0.2.jar"
   },{
-    "File":"expandedstorage-7.4.0-beta.2+1.18.2-quilt.jar",
-    "Size":413852,
-    "Hash":"bd673a46b8450fb831cb76898c43332d18c7c362",
-    "DestinationPath":"mods/expandedstorage-7.4.0-beta.2+1.18.2-quilt.jar"
-  },{
-    "File":"Fabric-1.18-SmoothSwapping-0.4.4.jar",
-    "Size":919823,
-    "Hash":"1078b602073479277cb110c20c17b86db55741e6",
-    "DestinationPath":"mods/Fabric-1.18-SmoothSwapping-0.4.4.jar"
-  },{
     "File":"fabric-carpet-1.18.2-1.4.69+v220331.jar",
     "Size":1479637,
     "Hash":"674c6810bfee5f75d8ce71059dfda015b4729838",
@@ -214,15 +174,10 @@
     "Hash":"d5d047374981d614c2a53422be751dc1491f9cd0",
     "DestinationPath":"mods/ferritecore-4.2.1-fabric.jar"
   },{
-    "File":"forgetmechunk-1.18.X-1.0.3.jar",
-    "Size":80002,
-    "Hash":"0cc5ebb9748e58aadc1770bac292f5f263e8eb9d",
-    "DestinationPath":"mods/forgetmechunk-1.18.X-1.0.3.jar"
-  },{
-    "File":"friendsandfoes-fabric-mc1.18.2-1.3.4.jar",
-    "Size":944052,
-    "Hash":"7b188ad9c710881ab38b8856d73a8fffb6242849",
-    "DestinationPath":"mods/friendsandfoes-fabric-mc1.18.2-1.3.4.jar"
+    "File":"friendsandfoes-fabric-mc1.18.2-1.4.0.jar",
+    "Size":1087175,
+    "Hash":"3ab29fd74433a8245d355ad63b8b1eba51db46cf",
+    "DestinationPath":"mods/friendsandfoes-fabric-mc1.18.2-1.4.0.jar"
   },{
     "File":"geckolib-fabric-1.18-3.0.42.jar",
     "Size":3580353,
@@ -233,16 +188,6 @@
     "Size":6533,
     "Hash":"0564401b5be9b9e510dee00faa0979ea8a822ac0",
     "DestinationPath":"mods/here-be-no-dragons-1.0.0.jar"
-  },{
-    "File":"Highlighter-1.18-fabric-1.1.2.jar",
-    "Size":25246,
-    "Hash":"726a560553293ca5ca0ea5e2138730bb4252b4be",
-    "DestinationPath":"mods/Highlighter-1.18-fabric-1.1.2.jar"
-  },{
-    "File":"Iceberg-1.18.2-fabric-1.0.38.jar",
-    "Size":78177,
-    "Hash":"a77c1d4af4f974ca331b330fdf6c6ddcc7c2ffdb",
-    "DestinationPath":"mods/Iceberg-1.18.2-fabric-1.0.38.jar"
   },{
     "File":"illuminations-1.10.4.jar",
     "Size":1265759,
@@ -264,30 +209,15 @@
     "Hash":"2c043c9c23d21c7d900637f88bab9d2075eaa124",
     "DestinationPath":"mods/inmis-2.6.0-1.18.2.jar"
   },{
-    "File":"InventoryProfilesNext-fabric-1.18.2-1.4.0.jar",
-    "Size":1518439,
-    "Hash":"e64426b95a2997ea4e6a31884401697a2040b888",
-    "DestinationPath":"mods/InventoryProfilesNext-fabric-1.18.2-1.4.0.jar"
-  },{
     "File":"InvView-1.4.8-1.18+.jar",
     "Size":147328,
     "Hash":"f225da7ae6b3327e36a017386d9d975c472a7303",
     "DestinationPath":"mods/InvView-1.4.8-1.18+.jar"
   },{
-    "File":"journeymap-1.18.2-5.8.4-fabric.jar",
-    "Size":7320187,
-    "Hash":"deba35f4e533ee4231f7378a2eea2b3665598679",
-    "DestinationPath":"mods/journeymap-1.18.2-5.8.4-fabric.jar"
-  },{
     "File":"kentucky-fried-axolotls-1.0.1-[1.18.2].jar",
     "Size":15867,
     "Hash":"d78505c9d753e91653b327d8b7566136b77195d4",
     "DestinationPath":"mods/kentucky-fried-axolotls-1.0.1-[1.18.2].jar"
-  },{
-    "File":"krypton-0.1.9.jar",
-    "Size":132286,
-    "Hash":"466a8a26949497a3b11886a788e6e156a8b03d24",
-    "DestinationPath":"mods/krypton-0.1.9.jar"
   },{
     "File":"lambdabettergrass-1.2.3+1.18.jar",
     "Size":1151411,
@@ -318,11 +248,6 @@
     "Size":50773,
     "Hash":"904c69a69c46695c75eee1e009310274d97ce48a",
     "DestinationPath":"mods/mavm-fabric-1.18.1-1.0.7a.jar"
-  },{
-    "File":"mixintrace-1.1.0+1.17.jar",
-    "Size":35963,
-    "Hash":"1370a1624b42bf92392d626dadb1228744112bb9",
-    "DestinationPath":"mods/mixintrace-1.1.0+1.17.jar"
   },{
     "File":"modmenu-3.2.2.jar",
     "Size":299929,
@@ -359,10 +284,20 @@
     "Hash":"1fbe6be8c9b585211657f75761ef8a82ae44ed36",
     "DestinationPath":"mods/peripheralworks-0.1.2.jar"
   },{
+    "File":"phosphor-fabric-mc1.18.x-0.8.1.jar",
+    "Size":90017,
+    "Hash":"9b826d21b9cd999853a57c76b0c47ee4d9161dc9",
+    "DestinationPath":"mods/phosphor-fabric-mc1.18.x-0.8.1.jar"
+  },{
     "File":"pickyourpoison-1.0.7.jar",
     "Size":505228,
     "Hash":"14ae90cd609de49f6f0d3e2aadd73d6736bb56d1",
     "DestinationPath":"mods/pickyourpoison-1.0.7.jar"
+  },{
+    "File":"polymer-all-0.2.0-pre.6+1.18.2.jar",
+    "Size":500122,
+    "Hash":"1c988f93e01d7df8f3d81b6fbe77133596959f8d",
+    "DestinationPath":"mods/polymer-all-0.2.0-pre.6+1.18.2.jar"
   },{
     "File":"polymorph-fabric-0.0.21-1.18.2.jar",
     "Size":330319,
@@ -394,35 +329,25 @@
     "Hash":"8a2a2fba12138b08f19037fc2c026eac30315ae0",
     "DestinationPath":"mods/respawnablepets-1.18-4.jar"
   },{
-    "File":"RoughlyEnoughItems-8.2.468.jar",
-    "Size":1777488,
-    "Hash":"dc1df722d64eaef5359f15a06436099ebf4b93c5",
-    "DestinationPath":"mods/RoughlyEnoughItems-8.2.468.jar"
+    "File":"RoughlyEnoughItems-8.2.470.jar",
+    "Size":1778445,
+    "Hash":"6635f6351de0af0f4c12f1f5049ded9abd565b92",
+    "DestinationPath":"mods/RoughlyEnoughItems-8.2.470.jar"
   },{
     "File":"RoughlyEnoughProfessions-fabric-1.18.2-1.0.1.jar",
     "Size":21210,
     "Hash":"f870f494ed856c0b0b0151dcd8a0c4edf1b9cf0a",
     "DestinationPath":"mods/RoughlyEnoughProfessions-fabric-1.18.2-1.0.1.jar"
   },{
+    "File":"RoughlyEnoughProfessions-forge-1.18.2-1.0.1.jar",
+    "Size":22160,
+    "Hash":"deedf18e439067e52b503ce16ef430238a1f67a6",
+    "DestinationPath":"mods/RoughlyEnoughProfessions-forge-1.18.2-1.0.1.jar"
+  },{
     "File":"sodium-fabric-mc1.18.2-0.4.1+build.15.jar",
     "Size":1318645,
     "Hash":"f839863a6be7014b8d80058ea1f361521148d049",
     "DestinationPath":"mods/sodium-fabric-mc1.18.2-0.4.1+build.15.jar"
-  },{
-    "File":"spark-1.9.1-fabric.jar",
-    "Size":3244903,
-    "Hash":"74626c3b0083d43caa2904162ba0c7880661af75",
-    "DestinationPath":"mods/spark-1.9.1-fabric.jar"
-  },{
-    "File":"starlight-1.0.2+fabric.89b8d9f.jar",
-    "Size":127318,
-    "Hash":"a436b72ee514bd2b59900159bcc4d461f96ef340",
-    "DestinationPath":"mods/starlight-1.0.2+fabric.89b8d9f.jar"
-  },{
-    "File":"stendhal-1.3.1-1.18.jar",
-    "Size":469915,
-    "Hash":"a6de2a9487d13dbc48745be46e3b48279679c087",
-    "DestinationPath":"mods/stendhal-1.3.1-1.18.jar"
   },{
     "File":"trinketofundying-fabric-2.0.1-1.18.jar",
     "Size":28814,
@@ -439,24 +364,29 @@
     "Hash":"098c722166656a0ffa277baf0285638907ef4779",
     "DestinationPath":"mods/turtlematic-0.4.3.jar"
   },{
+    "File":"vanish-1.18-1.4.0.jar",
+    "Size":61290,
+    "Hash":"58a787a19f31dcb5776b7818b17f228f418c8730",
+    "DestinationPath":"mods/vanish-1.18-1.4.0.jar"
+  },{
     "File":"VanitySlots-1.1.2.jar",
     "Size":55099,
     "Hash":"266ed489705f45c5080865bf60f6d330548a887e",
     "DestinationPath":"mods/VanitySlots-1.1.2.jar"
+  },{
+    "File":"worldedit-mod-7.2.10.jar",
+    "Size":5500682,
+    "Hash":"40fc7f7a734ccbd53365bc91c1a17fafcec1965d",
+    "DestinationPath":"mods/worldedit-mod-7.2.10.jar"
   },{
     "File":"wthit-fabric-4.10.3.jar",
     "Size":336416,
     "Hash":"014f61ffa930eaf41dd48156e97dde63abe08327",
     "DestinationPath":"mods/wthit-fabric-4.10.3.jar"
   },{
-    "File":"zihlaunchpads-1.2.0.jar",
-    "Size":145861,
-    "Hash":"c4e26527e4926d8eaedc16aef30f37e19dc30709",
-    "DestinationPath":"mods/zihlaunchpads-1.2.0.jar"
-  },{
     "File":"additional-additions-config.json",
-    "Size":891,
-    "Hash":"e4591814a4813962c603d17301330d430fab1bba",
+    "Size":889,
+    "Hash":"b6f2652c1adbea3e52ac898c609218dd09fda1f3",
     "DestinationPath":"config/additional-additions-config.json"
   },{
     "File":"Adorn.json5",
@@ -484,11 +414,6 @@
     "Hash":"940d4d45574b4d17e8b39bc0405f3a9b365729d2",
     "DestinationPath":"config/appliedenergistics2/common.json"
   },{
-    "File":"betterleads.toml",
-    "Size":492,
-    "Hash":"4f560d7d60f404d31b7ad36f9365f83f098766f8",
-    "DestinationPath":"config/betterleads.toml"
-  },{
     "File":"c2me-compat.toml",
     "Size":2,
     "Hash":"ba8ab5a0280b953aa97435ff8946cbcbb2755a27",
@@ -496,7 +421,7 @@
   },{
     "File":"c2me.toml",
     "Size":4651,
-    "Hash":"f4cc43e392e9b7ade4ec3b122fa3212ddb179225",
+    "Hash":"1c627a65736055c9d32c3a12a2f6c7a3482d5dd2",
     "DestinationPath":"config/c2me.toml"
   },{
     "File":"computercraft-client.toml",
@@ -506,17 +431,17 @@
   },{
     "File":"create-client.toml",
     "Size":4508,
-    "Hash":"22a2047aa2b83f8b31461ee2469bb602bdaef365",
+    "Hash":"ab9e2d4f98d07c2527f9bb836b3ac5aa8e94e902",
     "DestinationPath":"config/create-client.toml"
   },{
     "File":"create-common.toml",
     "Size":1245,
-    "Hash":"4b122c519421a07f13960898fe969aaef4d64cc6",
+    "Hash":"396226f7841964d1221bcc66e165b2fc7798c2b7",
     "DestinationPath":"config/create-common.toml"
   },{
     "File":"createaddition-common.toml",
     "Size":4133,
-    "Hash":"30c4910766f424ac30c7802fa5349cdf03dd5c40",
+    "Hash":"8044cbd3a01bd3a18ff4b3cbabb3d66f80e6b803",
     "DestinationPath":"config/createaddition-common.toml"
   },{
     "File":"croptopia.conf",
@@ -524,25 +449,10 @@
     "Hash":"8d7d236334e2f9b38366007f722d2b7539fb9bda",
     "DestinationPath":"config/croptopia/croptopia.conf"
   },{
-    "File":"cullleaves.json",
-    "Size":21,
-    "Hash":"cdfa96297b1ef9db255932ac50b2c17a8d8f065b",
-    "DestinationPath":"config/cullleaves.json"
-  },{
     "File":"effective.json",
     "Size":153,
     "Hash":"4f7e9c0e03d8f753897b001741e19379d05386a4",
     "DestinationPath":"config/effective.json"
-  },{
-    "File":"entityculling.json",
-    "Size":511,
-    "Hash":"91e0e8ee93752a03681e1a3fd51c54bc6bcf76cf",
-    "DestinationPath":"config/entityculling.json"
-  },{
-    "File":"expandedstorage.json",
-    "Size":136,
-    "Hash":"acc9c9936fbd2f07ddf7a76ee5641d589e60c240",
-    "DestinationPath":"config/expandedstorage.json"
   },{
     "File":"expanded_armor_enchanting.json",
     "Size":44,
@@ -566,7 +476,7 @@
   },{
     "File":"indigo-renderer.properties",
     "Size":258,
-    "Hash":"cba1450c23724fa363aa4291cc7d10272f579143",
+    "Hash":"4084c3a8667e973aa6f2aaa7224e25207172a748",
     "DestinationPath":"config/fabric/indigo-renderer.properties"
   },{
     "File":"ferritecore.mixin.properties",
@@ -580,39 +490,24 @@
     "DestinationPath":"config/flywheel.json"
   },{
     "File":"friendsandfoes.json",
-    "Size":648,
-    "Hash":"ca1062f55048882f6f6679631d5e035734bc709d",
+    "Size":1176,
+    "Hash":"84bfc17629102cebdd2add613d55879bcfd84a79",
     "DestinationPath":"config/friendsandfoes.json"
-  },{
-    "File":"highlighter.json5",
-    "Size":345,
-    "Hash":"e70f500b3e0d013da489671812d1493d40c8dfc4",
-    "DestinationPath":"config/highlighter.json5"
   },{
     "File":"illuminations.properties",
     "Size":3759,
-    "Hash":"25f28570ec92d209e0f3acf2ce415d72850712af",
+    "Hash":"e9204c206d42080d45ece821ab8fbd648f37923d",
     "DestinationPath":"config/illuminations.properties"
   },{
     "File":"indium-renderer.properties",
     "Size":256,
-    "Hash":"e75a3339c1702227eac3144e451858098f8f81ba",
+    "Hash":"44d405361c346033a0a12d08ced73fdec4135172",
     "DestinationPath":"config/indium-renderer.properties"
   },{
     "File":"inmis.json",
     "Size":2911,
     "Hash":"85bf2877fabf155a8dc625df490572605cecfaf6",
     "DestinationPath":"config/inmis.json"
-  },{
-    "File":"exampleIntegrationHints.json",
-    "Size":1450,
-    "Hash":"2bedb4d58a778b937dd9da01c50a46af9887709b",
-    "DestinationPath":"config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
-  },{
-    "File":"inventoryprofiles.json",
-    "Size":57,
-    "Hash":"58b81b870399a90daad1a3249c68c2d5bd18abf9",
-    "DestinationPath":"config/inventoryprofilesnext/inventoryprofiles.json"
   },{
     "File":"lambdabettergrass.toml",
     "Size":296,
@@ -634,14 +529,9 @@
     "Hash":"f4bb492c4e567251583252fffdbded3a6d441d2e",
     "DestinationPath":"config/lithium.properties"
   },{
-    "File":"midnightlib.json",
-    "Size":127,
-    "Hash":"d026466a4e64a38595bca68cdf50e296cc721ef6",
-    "DestinationPath":"config/midnightlib.json"
-  },{
     "File":"modmenu.json",
-    "Size":487,
-    "Hash":"4e3494e2327983ab98f58c71626e6a388c1f1cbf",
+    "Size":486,
+    "Hash":"68d1e6fc66a9fe284b86f0fbfea6a35048f646a3",
     "DestinationPath":"config/modmenu.json"
   },{
     "File":"morevillagers.toml",
@@ -666,8 +556,18 @@
   },{
     "File":"peripheralworks-common.toml",
     "Size":1295,
-    "Hash":"16c8f5aafc82a2f4b955bf21337e89fea41761d1",
+    "Hash":"4c62982eb5a483d39fcc964e092b79a6d3b74652",
     "DestinationPath":"config/peripheralworks-common.toml"
+  },{
+    "File":"client.json",
+    "Size":379,
+    "Hash":"d2dd8a4fb19c19cb1642d7f7f3b08a53a5c6279c",
+    "DestinationPath":"config/polymer/client.json"
+  },{
+    "File":"server.json",
+    "Size":1426,
+    "Hash":"8db53bdbcaa050febcd1ca80befc2f391041dbb5",
+    "DestinationPath":"config/polymer/server.json"
   },{
     "File":"polymorph-integrations.json",
     "Size":553,
@@ -689,16 +589,6 @@
     "Hash":"37cd1e91f6dcdefca71d0f586c26d2e051750be8",
     "DestinationPath":"config/roughlyenoughitems/config.json5"
   },{
-    "File":"skinlayers.json",
-    "Size":366,
-    "Hash":"a9c360a5d3f5f66b4d9a7b62cb2723cfdda52177",
-    "DestinationPath":"config/skinlayers.json"
-  },{
-    "File":"smoothswapping.json",
-    "Size":74,
-    "Hash":"a3b135f7908c976b5433882a3c5e17a06a0c030f",
-    "DestinationPath":"config/smoothswapping.json"
-  },{
     "File":"sodium-mixins.properties",
     "Size":266,
     "Hash":"09db7f09d6dfd063ec4c7c534102892d67655d98",
@@ -709,19 +599,9 @@
     "Hash":"93ca40d20769fef06a59a289f0d90d7377ce44cc",
     "DestinationPath":"config/sodium-options.json"
   },{
-    "File":"stendhal.properties",
-    "Size":323,
-    "Hash":"bc1f0c05b90b80f434109cec84272adb76428bcd",
-    "DestinationPath":"config/stendhal/stendhal.properties"
-  },{
-    "File":"tr7zwDonorSettings.json",
-    "Size":37,
-    "Hash":"6d1993e730a8f0e0b531b49bf0014fb9cdbc2f8f",
-    "DestinationPath":"config/tr7zwDonorSettings.json"
-  },{
     "File":"turtlematic-common.toml",
-    "Size":4116,
-    "Hash":"8df71798ca95d87709f4dcef84d6cc902a02f779",
+    "Size":4128,
+    "Hash":"e7a4880a8232c258ec8f890f8bc0eeeef75385f6",
     "DestinationPath":"config/turtlematic-common.toml"
   },{
     "File":"blacklist.json",
@@ -755,12 +635,12 @@
     "DestinationPath":"resourcepacks/infested-stone-resources-1-17-v2-0.zip"
   },{
     "File":"options.txt",
-    "Size":5327,
-    "Hash":"abef563257910a8f6f8f8b6bb5a74f20dcb66496",
+    "Size":4288,
+    "Hash":"30815398e60d4cba75ce33e891efbebf5998f7eb",
     "DestinationPath":"options.txt"
   },{
     "File":"servers.dat",
-    "Size":66,
-    "Hash":"fd8c5598d13c5c4afceb90e38d7f2b79cd113c12",
+    "Size":137,
+    "Hash":"295f1d5b7d9d0a8a34fa106fbbc8911557e1e1ed",
     "DestinationPath":"servers.dat"
   }]
