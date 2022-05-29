@@ -14,11 +14,6 @@
     "Hash":"54dc846236010b1e22bfdb6b7d06a669f6ccfb5a",
     "DestinationPath":"mods/Adorn-3.5.0+1.18.2-fabric.jar"
   },{
-    "File":"Adorn-3.5.0+1.18.2-forge.jar",
-    "Size":4076898,
-    "Hash":"d3e6bd2f50ae3692e55f2cd217d7684c17aa3be4",
-    "DestinationPath":"mods/Adorn-3.5.0+1.18.2-forge.jar"
-  },{
     "File":"advancementinfo-1.18.2-fabric0.47.10-1.3.1.jar",
     "Size":1442876,
     "Hash":"c817fbc6798d50ad45f586a66d5b54dc4fa3bf33",
@@ -129,10 +124,15 @@
     "Hash":"4f2e99f2769ed3036704d4b246d4116b4faa9fec",
     "DestinationPath":"mods/creeper-spores-1.8.0.jar"
   },{
-    "File":"Croptopia-1.18.2-FABRIC-2.0.1.jar",
+    "File":"Croptopia-1.18.2-FABRIC-2.0.1.jar.old",
     "Size":2455175,
     "Hash":"2aa5f12a97f99f32a3c3b8a13f547491655f7662",
-    "DestinationPath":"mods/Croptopia-1.18.2-FABRIC-2.0.1.jar"
+    "DestinationPath":"mods/Croptopia-1.18.2-FABRIC-2.0.1.jar.old"
+  },{
+    "File":"Croptopia-1.18.2-FABRIC-2.0.3.jar",
+    "Size":2462717,
+    "Hash":"fd26292fc51bc1f726eeecbaf91630019a8cad2c",
+    "DestinationPath":"mods/Croptopia-1.18.2-FABRIC-2.0.3.jar"
   },{
     "File":"crossstitch-0.1.4.jar",
     "Size":5038,
@@ -394,10 +394,10 @@
     "Hash":"6635f6351de0af0f4c12f1f5049ded9abd565b92",
     "DestinationPath":"mods/RoughlyEnoughItems-8.2.470.jar"
   },{
-    "File":"RoughlyEnoughProfessions-fabric-1.18.2-1.0.1.jar",
+    "File":"RoughlyEnoughProfessions-fabric-1.18.2-1.0.1.jar.old",
     "Size":21210,
     "Hash":"f870f494ed856c0b0b0151dcd8a0c4edf1b9cf0a",
-    "DestinationPath":"mods/RoughlyEnoughProfessions-fabric-1.18.2-1.0.1.jar"
+    "DestinationPath":"mods/RoughlyEnoughProfessions-fabric-1.18.2-1.0.1.jar.old"
   },{
     "File":"Server-Translations-1.4.12+1.18.2.jar",
     "Size":96517,
@@ -499,10 +499,10 @@
     "Hash":"a52d3632a5e9a21d66ac6f8b8129b5e4f761a02d",
     "DestinationPath":"mods/YungsBetterStrongholds-1.18.2-Fabric-2.1.1.jar"
   },{
-    "File":"YungsBridges-1.18.2-Fabric-2.1.0.jar",
+    "File":"YungsBridges-1.18.2-Fabric-2.1.0.jar.old",
     "Size":1068025,
     "Hash":"a1363bac63443bc795db9b50c53cb8f0798c0993",
-    "DestinationPath":"mods/YungsBridges-1.18.2-Fabric-2.1.0.jar"
+    "DestinationPath":"mods/YungsBridges-1.18.2-Fabric-2.1.0.jar.old"
   },{
     "File":"YungsExtras-1.18.2-Fabric-2.1.0.jar",
     "Size":875230,
@@ -591,7 +591,7 @@
   },{
     "File":"last_working_configs_backup.zip",
     "Size":40903,
-    "Hash":"b666045315c1e7c70c1559c7556c11935ef965f5",
+    "Hash":"d8900514b1d9c18e172816d55bd6274b079869ea",
     "DestinationPath":"config/byg/backups/last_working_configs_backup.zip"
   },{
     "File":"biomepedia.json5",
@@ -794,6 +794,16 @@
     "Hash":"9de357a417619eb05d90cd24603cdab4333896d7",
     "DestinationPath":"config/c2me.toml"
   },{
+    "File":"default_carpet-fixes.conf",
+    "Size":0,
+    "Hash":"da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "DestinationPath":"config/carpet/default_carpet-fixes.conf"
+  },{
+    "File":"default_carpet.conf",
+    "Size":0,
+    "Hash":"da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "DestinationPath":"config/carpet/default_carpet.conf"
+  },{
     "File":"cleardespawn.toml",
     "Size":58,
     "Hash":"e2a93eb32e885e6f2963b07bccdb3eef0c88a605",
@@ -861,7 +871,7 @@
   },{
     "File":"indigo-renderer.properties",
     "Size":258,
-    "Hash":"3f5d4acd759facb8b611c52e46ba6ee01a741ebc",
+    "Hash":"754ca7ff55bf2544fa98f35354a25724d2eaaaf4",
     "DestinationPath":"config/fabric/indigo-renderer.properties"
   },{
     "File":"ferritecore.mixin.properties",
@@ -886,12 +896,12 @@
   },{
     "File":"illuminations.properties",
     "Size":3761,
-    "Hash":"c5ada2de19a473a00d0069d4dc5cc638d202a730",
+    "Hash":"6dfa25fa438f0eb2917d8796d33f7df5e673c9ca",
     "DestinationPath":"config/illuminations.properties"
   },{
     "File":"indium-renderer.properties",
     "Size":256,
-    "Hash":"a2e499a7ba80253b3635691f9a0ec3bb4e497b7d",
+    "Hash":"7fb634e0f17db52df569262a9a82718bc9a120e5",
     "DestinationPath":"config/indium-renderer.properties"
   },{
     "File":"inmis.json",
@@ -915,8 +925,8 @@
     "DestinationPath":"config/lambdabettergrass.toml"
   },{
     "File":"lambdynlights.toml",
-    "Size":3173,
-    "Hash":"bebbc408824233867691ee38027c8dc54a9557a3",
+    "Size":3476,
+    "Hash":"1329c389ea1ec376dddbc643992649a1f9b80e38",
     "DestinationPath":"config/lambdynlights.toml"
   },{
     "File":"libgui.json5",
@@ -1011,17 +1021,17 @@
   },{
     "File":"occlusion.properties",
     "Size":1251,
-    "Hash":"984f7c5dbf527a498eea67c0ed96fd7ba8bb019d",
+    "Hash":"818124fe43d43e5498ebca1e90fe6272a5d4077d",
     "DestinationPath":"config/sound_physics_remastered/occlusion.properties"
   },{
     "File":"reflectivity.properties",
     "Size":1254,
-    "Hash":"f15286bc51cdda415730870d6ee8ee472d876e93",
+    "Hash":"40fb11abba9948f20814350fe4d2476b033a03ea",
     "DestinationPath":"config/sound_physics_remastered/reflectivity.properties"
   },{
     "File":"soundphysics.properties",
     "Size":770,
-    "Hash":"cb03f2aa1df5742a5fb789e2fc1a0ac7899174cd",
+    "Hash":"e461c782eef259ad7c357242d379f03d57a0406d",
     "DestinationPath":"config/sound_physics_remastered/soundphysics.properties"
   },{
     "File":"stendhal.properties",
@@ -1041,7 +1051,7 @@
   },{
     "File":"trade_cycling.properties",
     "Size":74,
-    "Hash":"7ab9e15ef2c8b8e40e20c965b30c3dd18860ee5c",
+    "Hash":"148f585f5c62ce1469f70ffa224f32e465e4f05a",
     "DestinationPath":"config/trade_cycling/trade_cycling.properties"
   },{
     "File":"translated_server.json",
@@ -1061,8 +1071,13 @@
   },{
     "File":"voicechat-client.properties",
     "Size":893,
-    "Hash":"195af689d5201fb0521ffbfb524d0fd753e4b16d",
+    "Hash":"7421b4f5bf4bba00675d67f4fb45d716e0afceab",
     "DestinationPath":"config/voicechat/voicechat-client.properties"
+  },{
+    "File":"voicechat-server.properties",
+    "Size":425,
+    "Hash":"cdf344350ab157a265c980847bf9094910d5e698",
+    "DestinationPath":"config/voicechat/voicechat-server.properties"
   },{
     "File":"blacklist.json",
     "Size":361,
@@ -1078,6 +1093,11 @@
     "Size":870,
     "Hash":"b17f37a886b53e86ef9fa43483cc6f010fd7cbcb",
     "DestinationPath":"config/waila/waila_plugins.json"
+  },{
+    "File":"worldedit.properties",
+    "Size":2513,
+    "Hash":"d383e54a1db1fa20865e424cbc6cc9b95eeae5d3",
+    "DestinationPath":"config/worldedit/worldedit.properties"
   },{
     "File":"yungsbridges-fabric-1_18.toml",
     "Size":91,
@@ -1121,7 +1141,7 @@
   },{
     "File":"options.txt",
     "Size":4952,
-    "Hash":"9432ba2b9384cde17d0332b9f330008f1703e10a",
+    "Hash":"f92b05caf9dfc2f132b08f438e0a918c64ac26b7",
     "DestinationPath":"options.txt"
   },{
     "File":"servers.dat",

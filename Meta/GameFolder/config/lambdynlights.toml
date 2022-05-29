@@ -30,6 +30,7 @@ mode = "fancy"
 				skeleton = true
 				bat = true
 				hoglin = true
+				experience_bottle = true
 				rabbit = true
 				silverfish = true
 				armor_stand = true
@@ -62,6 +63,7 @@ mode = "fancy"
 				chest_minecart = true
 				tropical_fish = true
 				slime = true
+				pillager = true
 				iron_golem = true
 				zombified_piglin = true
 				area_effect_cloud = true
@@ -69,14 +71,18 @@ mode = "fancy"
 				blaze = true
 				cat = true
 				zombie = true
+				guardian = true
 				ghast = true
 				sheep = true
 				player = true
 				illusioner = true
+				trident = true
 				wolf = true
 				villager = true
 				zombie_villager = true
 				tnt_minecart = true
+				elder_guardian = true
+				boat = true
 				polar_bear = true
 				strider = true
 				cave_spider = true
@@ -96,11 +102,17 @@ mode = "fancy"
 				normal_chest_mimic = true
 				rocky_chest_mimic = true
 
+			[light_sources.settings.entities.pickyourpoison]
+				poison_dart_frog = true
+
 			[light_sources.settings.entities.ratsmischief]
 				rat = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = true
+
+			[light_sources.settings.entities.additionaladditions]
+				glow_stick = true
 
 			[light_sources.settings.entities.friendsandfoes]
 				glare = true
