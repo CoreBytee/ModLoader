@@ -57,6 +57,7 @@ mode = "fancy"
 				chicken = true
 				ravager = true
 				trader_llama = true
+				donkey = true
 				fox = true
 				chest_minecart = true
 				tropical_fish = true
@@ -78,6 +79,7 @@ mode = "fancy"
 				tnt_minecart = true
 				polar_bear = true
 				strider = true
+				cave_spider = true
 				cod = true
 				witch = true
 				spider = true
@@ -93,6 +95,9 @@ mode = "fancy"
 				lush_chest_mimic = true
 				normal_chest_mimic = true
 				rocky_chest_mimic = true
+
+			[light_sources.settings.entities.ratsmischief]
+				rat = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = true

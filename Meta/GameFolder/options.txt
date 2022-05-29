@@ -1,6 +1,6 @@
 version:2975
 toggleCrawl:false
-quilt_available_resource_packs:["file/3D Backpacks.zip","file/OURPACKY.zip","file/VanillaTweaks_r905701.zip","file/infested-stone-resources-1-17-v2-0.zip","programer_art","vanilla","file/Copper Legacy Pack.zip","computercraft/classic","computercraft/overhaul","illuminations/lowerres","illuminations/pixelaccurate","lambdabettergrass/default","Black Icons","Classic Icons","White Icons"]
+quilt_available_resource_packs:["file/3D Backpacks.zip","file/OURPACKY.zip","file/VanillaTweaks_r905701.zip","file/infested-stone-resources-1-17-v2-0.zip","programer_art","vanilla","file/Copper Legacy Pack.zip","computercraft/classic","computercraft/overhaul","illuminations/lowerres","illuminations/pixelaccurate","lambdabettergrass/default","Black Icons","Classic Icons","White Icons","file/Xray_Ultimate_1.18_v4.2.0.zip"]
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -38,7 +38,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","lambdabettergrass/default","illuminations/pixelaccurate","Black Icons"]
+resourcePacks:["vanilla","lambdabettergrass/default","Black Icons","illuminations/lowerres"]
 incompatibleResourcePacks:[]
 lastServer:host.corebyte.ga:25567
 lang:en_us

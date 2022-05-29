@@ -915,8 +915,8 @@
     "DestinationPath":"config/lambdabettergrass.toml"
   },{
     "File":"lambdynlights.toml",
-    "Size":3061,
-    "Hash":"a167b8f129db1b6884e84a62240d27553be52e78",
+    "Size":3173,
+    "Hash":"bebbc408824233867691ee38027c8dc54a9557a3",
     "DestinationPath":"config/lambdynlights.toml"
   },{
     "File":"libgui.json5",
@@ -1060,8 +1060,8 @@
     "DestinationPath":"config/voicechat/username-cache.json"
   },{
     "File":"voicechat-client.properties",
-    "Size":894,
-    "Hash":"be18bb5e71b5855f99766ea192918f51578ef6a8",
+    "Size":893,
+    "Hash":"195af689d5201fb0521ffbfb524d0fd753e4b16d",
     "DestinationPath":"config/voicechat/voicechat-client.properties"
   },{
     "File":"blacklist.json",
@@ -1120,8 +1120,8 @@
     "DestinationPath":"resourcepacks/infested-stone-resources-1-17-v2-0.zip"
   },{
     "File":"options.txt",
-    "Size":4920,
-    "Hash":"e43ef671b41086e65d337143aeb6d78028cbf094",
+    "Size":4952,
+    "Hash":"9432ba2b9384cde17d0332b9f330008f1703e10a",
     "DestinationPath":"options.txt"
   },{
     "File":"servers.dat",
