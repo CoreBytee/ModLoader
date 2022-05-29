@@ -16,6 +16,7 @@ jobs:
         run: |
           curl -L --output ./TypeWriter.zip --url https://github.com/Dot-lua/TypeWriter/releases/latest/download/TypeWriter-MacOs.zip
           tar -xf ./TypeWriter.zip
+          tar -xf ./TypeWriter.tar
           ls
           chmod +x ./TypeWriter
           shopt -s expand_aliases
