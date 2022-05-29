@@ -63,6 +63,7 @@ mode = "fancy"
 				slime = true
 				iron_golem = true
 				zombified_piglin = true
+				area_effect_cloud = true
 				piglin = true
 				blaze = true
 				cat = true

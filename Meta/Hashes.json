@@ -269,6 +269,11 @@
     "Hash":"d78505c9d753e91653b327d8b7566136b77195d4",
     "DestinationPath":"mods/kentucky-fried-axolotls-1.0.1-[1.18.2].jar"
   },{
+    "File":"krypton-0.1.9.jar",
+    "Size":132286,
+    "Hash":"466a8a26949497a3b11886a788e6e156a8b03d24",
+    "DestinationPath":"mods/krypton-0.1.9.jar"
+  },{
     "File":"lambdabettergrass-1.2.3+1.18.jar",
     "Size":1151411,
     "Hash":"f5bdcf5dde183ca6c5b8ee28ab6193c1a9ef390d",
@@ -881,7 +886,7 @@
   },{
     "File":"illuminations.properties",
     "Size":3761,
-    "Hash":"60f956f701b8e9ab3ee2b23aa122b80c5469a653",
+    "Hash":"c5ada2de19a473a00d0069d4dc5cc638d202a730",
     "DestinationPath":"config/illuminations.properties"
   },{
     "File":"indium-renderer.properties",
@@ -910,8 +915,8 @@
     "DestinationPath":"config/lambdabettergrass.toml"
   },{
     "File":"lambdynlights.toml",
-    "Size":3031,
-    "Hash":"b6b50a8a10a9c1db65f8bd12505ecf3af429be49",
+    "Size":3061,
+    "Hash":"a167b8f129db1b6884e84a62240d27553be52e78",
     "DestinationPath":"config/lambdynlights.toml"
   },{
     "File":"libgui.json5",
@@ -1050,8 +1055,8 @@
     "DestinationPath":"config/turtlematic-common.toml"
   },{
     "File":"username-cache.json",
-    "Size":52,
-    "Hash":"5fda0fd4d8eab4ff0043b4dd2498c7acef23e82b",
+    "Size":106,
+    "Hash":"85df150e5faab736355d70ca90a4ef91cd6e12b7",
     "DestinationPath":"config/voicechat/username-cache.json"
   },{
     "File":"voicechat-client.properties",
