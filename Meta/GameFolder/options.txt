@@ -1,6 +1,6 @@
 version:2975
 toggleCrawl:false
-quilt_available_resource_packs:["file/3D Backpacks.zip","file/OURPACKY.zip","file/VanillaTweaks_r905701.zip","file/infested-stone-resources-1-17-v2-0.zip","programer_art","vanilla","file/Copper Legacy Pack.zip","computercraft/classic","computercraft/overhaul","illuminations/lowerres","illuminations/pixelaccurate","lambdabettergrass/default"]
+quilt_available_resource_packs:["file/3D Backpacks.zip","file/OURPACKY.zip","file/VanillaTweaks_r905701.zip","file/infested-stone-resources-1-17-v2-0.zip","programer_art","vanilla","file/Copper Legacy Pack.zip","computercraft/classic","computercraft/overhaul","illuminations/lowerres","illuminations/pixelaccurate","lambdabettergrass/default","Black Icons","Classic Icons","White Icons"]
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -38,7 +38,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","lambdabettergrass/default"]
+resourcePacks:["vanilla","lambdabettergrass/default","illuminations/pixelaccurate","Black Icons"]
 incompatibleResourcePacks:[]
 lastServer:host.corebyte.ga:25567
 lang:en_us
@@ -72,7 +72,7 @@ skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
-hideBundleTutorial:false
+hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:false
 allowServerListing:true
@@ -110,7 +110,19 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.ellemes_container_lib.config:key.keyboard.g
 key_key.inmis.open_backpack:key.keyboard.b
+key_key.trade_cycling.cycle_trades:key.keyboard.c
+key_key.push_to_talk:key.keyboard.caps.lock
+key_key.whisper:key.keyboard.unknown
+key_key.mute_microphone:key.keyboard.m
+key_key.disable_voice_chat:key.keyboard.n
+key_key.hide_icons:key.keyboard.h
+key_key.voice_chat:key.keyboard.v
+key_key.voice_chat_settings:key.keyboard.unknown
+key_key.voice_chat_group:key.keyboard.g
+key_key.voice_chat_toggle_recording:key.keyboard.unknown
+key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
