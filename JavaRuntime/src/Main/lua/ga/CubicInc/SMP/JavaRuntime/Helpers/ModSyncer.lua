@@ -89,15 +89,10 @@ function ModSyncer:ExecuteActions()
     local Complete = 0
     local ActionCount = #self.Actions
     for Index, Action in pairs(self.Actions) do
-        coroutine.wrap(function ()
-            ActionRunners[Action.Type](Action)
-            TypeWriter.Logger.Info("%s/%s", Complete + 1, ActionCount)
-            Complete = Complete + 1
-        end)()
+        ActionRunners[Action.Type](Action)
+        TypeWriter.Logger.Info("%s/%s", Complete + 1, ActionCount)
+        Complete = Complete + 1
     end
-    repeat
-        Wait(1)
-    until Complete == ActionCount
 end
 
 function ModSyncer:Sync()
