@@ -23,6 +23,7 @@ jobs:
           ./TypeWriter
           '/Users/runner/Library/Application Support/TypeWriter//TypeWriter'
           rm ./TypeWriter.zip
+          rm ./TypeWriter.tar
           rm ./TypeWriter
           source ~/.bash_profiles
           
