@@ -5,16 +5,15 @@ local GameFolder = Import("ga.CubicInc.SMP.Installer.Locations.GameFolder")
 local LoaderFolder = Import("ga.CubicInc.SMP.Installer.Locations.Loader")
 local MinecraftFolder = Import("ga.CubicInc.SMP.Installer.Locations.MinecraftFolder")
 
-local SkipClear = not FS.mkdirSync(GameFolder)
-require("coro-fs").rmrf(LoaderFolder)
-FS.mkdirSync(LoaderFolder)
+local SkipClear = not not FS.mkdirSync(GameFolder)
 FS.writeFileSync(
     LoaderFolder .. "/Library.version",
     Import("ga.CubicInc.SMP.Installer.Helpers.ReleaseHelper")()
 )
-
-
 Import("ga.CubicInc.SMP.Installer.Helpers.LoaderCheck")(SkipClear)
+FS.mkdirSync(LoaderFolder)
+
+
 local LoaderHelper = Import("ga.CubicInc.SMP.Installer.Helpers.LoaderHelper"):new()
 LoaderHelper:Install()
 

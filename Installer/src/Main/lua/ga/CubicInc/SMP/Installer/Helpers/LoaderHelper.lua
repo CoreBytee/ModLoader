@@ -18,7 +18,6 @@ function LoaderHelper:initialize()
         VersionInfo.MinecraftVersion
     )
     self.VersionInfo = VersionInfo
-    p(self.VersionInfo)
 end
 
 function LoaderHelper:GetVersionString()

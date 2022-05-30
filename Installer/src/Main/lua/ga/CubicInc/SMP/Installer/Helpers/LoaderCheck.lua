@@ -5,32 +5,23 @@ local Rmrf = require("coro-fs").rmrf
 local Spawn = require("coro-spawn")	
 
 return function (SkipClear)
-    if not FS.existsSync(LoaderLocation .. "/Loader.version") then
-        local SetVersion = 0
-        if SkipClear then
-            SetVersion = 1
-        end
-        FS.writeFileSync(LoaderLocation .. "/Loader.version", tostring(SetVersion))
+    if SkipClear then
+        return
     end
-    local Version = tonumber(FS.readFileSync(LoaderLocation .. "/Loader.version"))
-
-    if Version ~= 1 then
-        TypeWriter.Logger.Warn("REMOVING OLD DATA IN 10 SECONDS")
-        TypeWriter.Logger.Warn("CTRL/CMD + C TO EXIT!")
-        Wait(10)
-        local Exclude = {
-            ["CubicLoader"] = true,
-            ["saves"] = true
-        }
-        for Index, FileName in pairs(FS.readdirSync(GameFolder)) do
-            if not Exclude[FileName] then
-                TypeWriter.Logger.Info("Removing " .. GameFolder .. "/" .. FileName)
-                if not Rmrf(GameFolder .. FileName) then
-                    TypeWriter.Logger.Error("Failed to remove " .. GameFolder .. "/" .. FileName)
-                    FS.unlinkSync(GameFolder .. FileName)
-                    TypeWriter.Logger.Info("")
-                end
+    TypeWriter.Logger.Warn("Clearing game folder...")
+    Wait(0)
+    local Exclude = {
+        ["CubicLoader"] = false,
+        ["saves"] = true
+    }
+    for Index, FileName in pairs(FS.readdirSync(GameFolder)) do
+        if not Exclude[FileName] then
+            TypeWriter.Logger.Info("Removing " .. GameFolder .. "/" .. FileName)
+            if not Rmrf(GameFolder .. FileName) then
+                TypeWriter.Logger.Error("Failed to remove " .. GameFolder .. "/" .. FileName)
+                FS.unlinkSync(GameFolder .. FileName)
+                TypeWriter.Logger.Info("")
             end
         end
-    end 
+    end
 end

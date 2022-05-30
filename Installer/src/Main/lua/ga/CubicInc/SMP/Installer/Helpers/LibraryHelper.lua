@@ -57,7 +57,7 @@ function LibraryHelper:Run()
     else
         local Error = TypeWriter.Logger.Error
         Error("Incorrect java version found")
-        Error("Please download java 17 from https://adoptium.net")
+        Error("Please download java 17 from https://adoptium.net (And set the JAVA_HOME for windows)")
         Error("Ask for help if your stuck!")
         Wait(500000)
     end
