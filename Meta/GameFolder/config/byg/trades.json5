@@ -200,20 +200,6 @@ to make editing this file much easier.
 			"4": [],
 			"5": []
 		},
-		"minecraft:enderian": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"minecraft:engineer": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
 		"minecraft:farmer": {
 			"1": [
 				{
@@ -290,20 +276,6 @@ to make editing this file much easier.
 			"5": []
 		},
 		"minecraft:fletcher": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"minecraft:florist": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"minecraft:hunter": {
 			"1": [],
 			"2": [],
 			"3": [],
@@ -428,27 +400,6 @@ to make editing this file much easier.
 			],
 			"5": []
 		},
-		"minecraft:miner": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"minecraft:netherian": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"minecraft:oceanographer": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
 		"minecraft:shepherd": {
 			"1": [],
 			"2": [],
@@ -464,13 +415,6 @@ to make editing this file much easier.
 			"5": []
 		},
 		"minecraft:weaponsmith": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"minecraft:woodworker": {
 			"1": [],
 			"2": [],
 			"3": [],
