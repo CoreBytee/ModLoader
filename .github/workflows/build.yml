@@ -42,11 +42,6 @@ jobs:
           '/Users/runner/Library/Application Support/TypeWriter//TypeWriter' buildexecutable --input=./JavaRuntime/src/ --output=./
           ls
           
-      - name: Build VersionNotice
-        run: |
-          '/Users/runner/Library/Application Support/TypeWriter//TypeWriter' buildexecutable --input=./VersionNotice/src/ --output=./
-          ls
-          
       - name: Upload Libraries
         uses: actions/upload-artifact@v3.1.0
         with:
@@ -92,11 +87,6 @@ jobs:
       - name: Build JavaRuntime
         run: |
           TypeWriter buildexecutable --input=./JavaRuntime/src/ --output=./
-          ls
-          
-      - name: Build VersionNotice
-        run: |
-          TypeWriter buildexecutable --input=./VersionNotice/src/ --output=./
           ls
           
       - name: Upload Libraries
