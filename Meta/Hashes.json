@@ -274,10 +274,10 @@
     "Hash":"f225da7ae6b3327e36a017386d9d975c472a7303",
     "DestinationPath":"mods/InvView-1.4.8-1.18+.jar"
   },{
-    "File":"kentucky-fried-axolotls-1.0.1-[1.18.2].jar",
+    "File":"kentucky-fried-axolotls-1.0.1-1.18.2.jar",
     "Size":15867,
     "Hash":"d78505c9d753e91653b327d8b7566136b77195d4",
-    "DestinationPath":"mods/kentucky-fried-axolotls-1.0.1-[1.18.2].jar"
+    "DestinationPath":"mods/kentucky-fried-axolotls-1.0.1-1.18.2.jar"
   },{
     "File":"krypton-0.1.9.jar",
     "Size":132286,
@@ -404,10 +404,15 @@
     "Hash":"9af22a06555f52ec9246f61d61529f2c23fa7ffb",
     "DestinationPath":"mods/PuzzlesLib-v3.3.5-1.18.2-Fabric.jar"
   },{
-    "File":"qsl-1.1.0-beta.8_qfapi-1.0.0-beta.14_fapi-0.51.1_mc-1.18.2.jar",
+    "File":"qsl-1.1.0-beta.13_qfapi-1.0.0-beta.16_fapi-0.53.4_mc-1.18.2.jar",
+    "Size":1037687,
+    "Hash":"6138f7108ba35be44515d275ace27340a061a51a",
+    "DestinationPath":"mods/qsl-1.1.0-beta.13_qfapi-1.0.0-beta.16_fapi-0.53.4_mc-1.18.2.jar"
+  },{
+    "File":"qsl-1.1.0-beta.8_qfapi-1.0.0-beta.14_fapi-0.51.1_mc-1.18.2.jar.old",
     "Size":1006133,
     "Hash":"2f61dd13abae944fbdc8d506c72f1fa08576665b",
-    "DestinationPath":"mods/qsl-1.1.0-beta.8_qfapi-1.0.0-beta.14_fapi-0.51.1_mc-1.18.2.jar"
+    "DestinationPath":"mods/qsl-1.1.0-beta.8_qfapi-1.0.0-beta.14_fapi-0.51.1_mc-1.18.2.jar.old"
   },{
     "File":"ratsmischief-1.3.7.jar",
     "Size":292508,
@@ -731,7 +736,7 @@
   },{
     "File":"last_working_configs_backup.zip",
     "Size":40850,
-    "Hash":"8762fa749bd5227f8ac08592c04c2fccac4fa7a6",
+    "Hash":"2969aacdb009902c625d4668e89c9399f9e90d5b",
     "DestinationPath":"config/byg/backups/last_working_configs_backup.zip"
   },{
     "File":"biomepedia.json5",
@@ -1016,7 +1021,7 @@
   },{
     "File":"indigo-renderer.properties",
     "Size":258,
-    "Hash":"6af8fa0257f763b8cca4f02f60f233eb078a322c",
+    "Hash":"e57120a53c9edc73e3fdef2d761d8f81072a3cec",
     "DestinationPath":"config/fabric/indigo-renderer.properties"
   },{
     "File":"ferritecore.mixin.properties",
@@ -1041,12 +1046,12 @@
   },{
     "File":"illuminations.properties",
     "Size":3761,
-    "Hash":"98258d21b30367383ab1ad73f7b4875fe5b5322d",
+    "Hash":"a7603c9f2a21706b0f7db2d070eb974bee847233",
     "DestinationPath":"config/illuminations.properties"
   },{
     "File":"indium-renderer.properties",
     "Size":256,
-    "Hash":"cad0aa1377ed3611b9623ad9b68a56035ae491d0",
+    "Hash":"c0ff2e68425be0b07277bb4b1781affaefb21fb8",
     "DestinationPath":"config/indium-renderer.properties"
   },{
     "File":"inmis.json",
@@ -1070,8 +1075,8 @@
     "DestinationPath":"config/lambdabettergrass.toml"
   },{
     "File":"lambdynlights.toml",
-    "Size":3778,
-    "Hash":"ca75582645c806686352df066873d9a0f5c6a506",
+    "Size":3922,
+    "Hash":"5c49dc6a22bd02a66cb0ebbdcb324a4b4469ac8b",
     "DestinationPath":"config/lambdynlights.toml"
   },{
     "File":"libgui.json5",
@@ -1140,8 +1145,8 @@
     "DestinationPath":"config/respawnablepets.json"
   },{
     "File":"config.json5",
-    "Size":5927,
-    "Hash":"e2c4e2ada332938aa2ed3c2f0e0e3439b14fc5e5",
+    "Size":6064,
+    "Hash":"8b59557b8699ae5c49c4254d6c7161e0ef3970da",
     "DestinationPath":"config/roughlyenoughitems/config.json5"
   },{
     "File":"skinlayers.json",
@@ -1166,17 +1171,17 @@
   },{
     "File":"occlusion.properties",
     "Size":1251,
-    "Hash":"d775546231e4004167a5eecff949414c4f290adb",
+    "Hash":"ee4260d2c6aabe35bb98bb3514b1e1ac5ed4e4fd",
     "DestinationPath":"config/sound_physics_remastered/occlusion.properties"
   },{
     "File":"reflectivity.properties",
     "Size":1254,
-    "Hash":"0ad0acd8b876e145841c7e9db8e8b7d51be1f976",
+    "Hash":"8c16a76db1767095d633b9ce34b614ea6deff8bf",
     "DestinationPath":"config/sound_physics_remastered/reflectivity.properties"
   },{
     "File":"soundphysics.properties",
     "Size":770,
-    "Hash":"4ae3daa8213757f6995ec11454b6c870abf5d7f8",
+    "Hash":"f9bc3e1bc70efdbfdb3cbb5e6e9e256b8466388e",
     "DestinationPath":"config/sound_physics_remastered/soundphysics.properties"
   },{
     "File":"stendhal.properties",
@@ -1196,7 +1201,7 @@
   },{
     "File":"trade_cycling.properties",
     "Size":74,
-    "Hash":"3d592815f6a2ba444929297c00774677be86f787",
+    "Hash":"9b55883a3f267e77a2321bd57b809dd85e8aa67f",
     "DestinationPath":"config/trade_cycling/trade_cycling.properties"
   },{
     "File":"translated_server.json",
@@ -1221,7 +1226,7 @@
   },{
     "File":"voicechat-client.properties",
     "Size":894,
-    "Hash":"af33d9ed7c343d16ad2001301349638452cc6f4e",
+    "Hash":"7321ffa069ebd2becb10420c495a2a0a8fc41e63",
     "DestinationPath":"config/voicechat/voicechat-client.properties"
   },{
     "File":"voicechat-server.properties",
@@ -1295,8 +1300,8 @@
     "DestinationPath":"resourcepacks/infested-stone-resources-1-17-v2-0.zip"
   },{
     "File":"options.txt",
-    "Size":4973,
-    "Hash":"690a2d0eae1ebaa49eb94697ddf31c04232044b2",
+    "Size":5028,
+    "Hash":"81f37df8e2a7554df828b6106062b357227da16f",
     "DestinationPath":"options.txt"
   },{
     "File":"servers.dat",

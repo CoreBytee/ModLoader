@@ -53,6 +53,7 @@ mode = "fancy"
 				horse = true
 				vindicator = true
 				phantom = true
+				minecart = true
 				ender_dragon = true
 				evoker = true
 				llama_spit = true
@@ -126,6 +127,10 @@ mode = "fancy"
 			[light_sources.settings.entities.additionaladditions]
 				glow_stick = true
 
+			[light_sources.settings.entities.create]
+				stationary_contraption = true
+				contraption = true
+
 			[light_sources.settings.entities.friendsandfoes]
 				glare = true
 				copper_golem = true
@@ -141,6 +146,7 @@ mode = "fancy"
 				confetti_trigger_bomb = true
 				amethyst_trigger_bomb = true
 				diamond_bomb = true
+				bomb = true
 				diamond_trigger_bomb = true
 				slime_trigger_bomb = true
 				golden_trigger_bomb = true
