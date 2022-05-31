@@ -24,7 +24,7 @@ local function HashFile(DestinationPath, FileData)
         File = SplitPath[#SplitPath],
         DestinationPath = Location,
         Size = #FileData,
-        Hash = Hash(FileData)
+        Hash = Hash(SplitPath[#SplitPath] .. FileData)
     }
     p(HashData)
     table.insert(Hashes, HashData)
