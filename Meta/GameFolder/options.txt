@@ -113,6 +113,7 @@ key_key.hotbar.9:key.keyboard.9
 key_key.ellemes_container_lib.config:key.keyboard.unknown
 key_key.veinmining.activate.desc:key.keyboard.unknown
 key_key.inmis.open_backpack:key.keyboard.b
+key_key.trade_cycling.cycle_trades:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
@@ -123,7 +124,6 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
-key_key.trade_cycling.cycle_trades:key.keyboard.unknown
 key_key.waila.config:key.keyboard.unknown
 key_key.waila.show_overlay:key.keyboard.unknown
 key_key.waila.toggle_liquid:key.keyboard.unknown

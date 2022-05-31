@@ -84,6 +84,16 @@
     "Hash":"2c6042a4f82dababa1c47943c95aaa9ad971424b",
     "DestinationPath":"mods/blast-1.9.1.jar"
   },{
+    "File":"Bookshelf-Fabric-1.18.2-13.0.13.jar",
+    "Size":185037,
+    "Hash":"fdb1c0dfb54b9b565db16820755783bcf555caca",
+    "DestinationPath":"mods/Bookshelf-Fabric-1.18.2-13.0.13.jar"
+  },{
+    "File":"Botania-1.18.2-432.jar",
+    "Size":15559102,
+    "Hash":"b718c53738826be3814439e7b6073c24ede76afa",
+    "DestinationPath":"mods/Botania-1.18.2-432.jar"
+  },{
     "File":"c2me-fabric-mc1.18.2-0.2.0+alpha.7.0-all.jar",
     "Size":1290009,
     "Hash":"c6501ce14f5796919a0738248c1a2cab133db4dc",
@@ -168,6 +178,16 @@
     "Size":29731,
     "Hash":"64a90d9b5cfa0a5e261cbb82d4c1b7568dbbfd07",
     "DestinationPath":"mods/elytratrinket-fabric-3.0.0-1.18.1.jar"
+  },{
+    "File":"enchancement-1.18-17.jar",
+    "Size":567023,
+    "Hash":"61521d12a7aa6de6a09a95e8ae8f16cbef7e7048",
+    "DestinationPath":"mods/enchancement-1.18-17.jar"
+  },{
+    "File":"EnchantmentDescriptions-Fabric-1.18.2-10.0.3.jar",
+    "Size":45701,
+    "Hash":"3e3725c143664d61eb6acfbc26eba722c4b805ec",
+    "DestinationPath":"mods/EnchantmentDescriptions-Fabric-1.18.2-10.0.3.jar"
   },{
     "File":"expanded-armor-enchanting-1.0.2.jar",
     "Size":10450,
@@ -314,6 +334,51 @@
     "Hash":"83ac8c92f231fb3fb00e6fd5273b3147a6676fef",
     "DestinationPath":"mods/mavm-fabric-1.18.1-1.0.7a.jar"
   },{
+    "File":"mcw-bridges-2.0.3fabric-mc1.18.2.jar",
+    "Size":764300,
+    "Hash":"544b25b0ec90a1e69c7c131e3661c8058f11fc16",
+    "DestinationPath":"mods/mcw-bridges-2.0.3fabric-mc1.18.2.jar"
+  },{
+    "File":"mcw-doors-1.0.6fabric-mc1.18.2.jar",
+    "Size":983512,
+    "Hash":"8d07d8d4d0e5b05eeb257c79e114f7158583c1fa",
+    "DestinationPath":"mods/mcw-doors-1.0.6fabric-mc1.18.2.jar"
+  },{
+    "File":"mcw-fences-1.0.4fabric-mc1.18.2.jar",
+    "Size":278045,
+    "Hash":"b475dbe3203e88234ba4a9bdb33dda9e9449e438",
+    "DestinationPath":"mods/mcw-fences-1.0.4fabric-mc1.18.2.jar"
+  },{
+    "File":"mcw-lights-1.0.3c+fabric-mc1.18.2.jar",
+    "Size":279000,
+    "Hash":"d0d57e0da914e62a9f1d645dd1e55a5ba9a9798e",
+    "DestinationPath":"mods/mcw-lights-1.0.3c+fabric-mc1.18.2.jar"
+  },{
+    "File":"mcw-paintings-1.0.3fabric-mc1.18.2.jar",
+    "Size":303182,
+    "Hash":"7f50af1a5dee4e38ca56dd15929157fd54f861af",
+    "DestinationPath":"mods/mcw-paintings-1.0.3fabric-mc1.18.2.jar"
+  },{
+    "File":"mcw-paths-1.0.0fabric-mc1.18.2.jar",
+    "Size":223199,
+    "Hash":"eddc9e0335540a3c821859257241d92c0ccf906b",
+    "DestinationPath":"mods/mcw-paths-1.0.0fabric-mc1.18.2.jar"
+  },{
+    "File":"mcw-roofs-2.1.2fabric-mc1.18.2.jar",
+    "Size":1901069,
+    "Hash":"e06295e034c7730abac28d084b5c047e26ea5ce8",
+    "DestinationPath":"mods/mcw-roofs-2.1.2fabric-mc1.18.2.jar"
+  },{
+    "File":"mcw-trapdoors-1.0.5fabric-mc1.18.2.jar",
+    "Size":358862,
+    "Hash":"1982a0ad355942a90a5a8b31d319468b400c8696",
+    "DestinationPath":"mods/mcw-trapdoors-1.0.5fabric-mc1.18.2.jar"
+  },{
+    "File":"mcw-windows-2.0.3bfabric-mc1.18.2.jar",
+    "Size":868757,
+    "Hash":"f30214500207ab656c5baf208afd415751cf53de",
+    "DestinationPath":"mods/mcw-windows-2.0.3bfabric-mc1.18.2.jar"
+  },{
     "File":"modmenu-3.2.2.jar",
     "Size":299929,
     "Hash":"ffffb97740994b49c880ab60745e0112e5acb21d",
@@ -419,10 +484,10 @@
     "Hash":"a3a67f200ddf56f96c0cab82052018bfabaf5e1e",
     "DestinationPath":"mods/ratsmischief-1.3.7.jar"
   },{
-    "File":"rer-2.5.0.jar.old",
+    "File":"rer-2.5.0.jar",
     "Size":81566,
-    "Hash":"23239331df99632380cfbe4549300fdeed5aa357",
-    "DestinationPath":"mods/rer-2.5.0.jar.old"
+    "Hash":"08edc2d163d6b8c66a239bc79b6f806c92a5d7e3",
+    "DestinationPath":"mods/rer-2.5.0.jar"
   },{
     "File":"respawnablepets-1.18-4.jar",
     "Size":200424,
@@ -434,10 +499,10 @@
     "Hash":"0ab5659c018ca1c40051c773e2c43fe39f401e2e",
     "DestinationPath":"mods/RoughlyEnoughItems-8.2.470.jar"
   },{
-    "File":"RoughlyEnoughProfessions-fabric-1.18.2-1.0.1.jar.old",
+    "File":"RoughlyEnoughProfessions-fabric-1.18.2-1.0.1.jar",
     "Size":21210,
-    "Hash":"f45e6bc9a04f17bc7f9c35704abc3537b160b843",
-    "DestinationPath":"mods/RoughlyEnoughProfessions-fabric-1.18.2-1.0.1.jar.old"
+    "Hash":"07931c88a62816c1a8ab737732b8dbc94054b69a",
+    "DestinationPath":"mods/RoughlyEnoughProfessions-fabric-1.18.2-1.0.1.jar"
   },{
     "File":"satin-1.7.2.jar",
     "Size":100239,
@@ -473,6 +538,11 @@
     "Size":306885,
     "Hash":"2cda04ab93137efaca8c53f810addd668bc19e47",
     "DestinationPath":"mods/TerraBlender-fabric-1.18.2-1.1.0.101.jar"
+  },{
+    "File":"tooltipfix-1.0.4-1.18.jar",
+    "Size":10653,
+    "Hash":"e18e606fd8375881d8672de429d09af72c446c79",
+    "DestinationPath":"mods/tooltipfix-1.0.4-1.18.jar"
   },{
     "File":"trade-cycling-fabric-1.18.2-1.0.2.jar",
     "Size":285034,
@@ -736,7 +806,7 @@
   },{
     "File":"last_working_configs_backup.zip",
     "Size":40850,
-    "Hash":"1682ab0f9f486df9d910df2cf01be874ff8cfb65",
+    "Hash":"598e5f9cccdc305870fe750f57b6993b9884294d",
     "DestinationPath":"config/byg/backups/last_working_configs_backup.zip"
   },{
     "File":"biomepedia.json5",
@@ -994,9 +1064,19 @@
     "Hash":"9686901a69e349abc2acba544b05201f82f9d3ea",
     "DestinationPath":"config/effective.json"
   },{
+    "File":"enchancement.json",
+    "Size":1766,
+    "Hash":"40c95b99c69e5de528eba7c4fb68ca05b73b2a69",
+    "DestinationPath":"config/enchancement.json"
+  },{
+    "File":"enchdesc.json",
+    "Size":95,
+    "Hash":"d135ae8459f65efc67bdf75357fab74e182ad321",
+    "DestinationPath":"config/enchdesc.json"
+  },{
     "File":"expandedstorage.json",
-    "Size":136,
-    "Hash":"b6bc8765d005531c7e1ebf1ef5c1c0e1dfa2527e",
+    "Size":138,
+    "Hash":"3ec975ff9c6a5619055ea02f7c6805494f631b67",
     "DestinationPath":"config/expandedstorage.json"
   },{
     "File":"expanded_armor_enchanting.json",
@@ -1021,7 +1101,7 @@
   },{
     "File":"indigo-renderer.properties",
     "Size":258,
-    "Hash":"92a22be5fb8ffc42ec8cbddcea85a2e16296059a",
+    "Hash":"885fef3cb3336facd1d81d6f1b135f2a48bd14ee",
     "DestinationPath":"config/fabric/indigo-renderer.properties"
   },{
     "File":"ferritecore.mixin.properties",
@@ -1046,12 +1126,12 @@
   },{
     "File":"illuminations.properties",
     "Size":3761,
-    "Hash":"b5f5d268787b1a60c7bf4b85f6d845fd2668c8a7",
+    "Hash":"e9ee172fe38e2452bb62070dad93eef2c56df091",
     "DestinationPath":"config/illuminations.properties"
   },{
     "File":"indium-renderer.properties",
     "Size":256,
-    "Hash":"923fec790ceb27458e4a9276b18957b6f70b09fc",
+    "Hash":"7ab52daa4c214d2b7b1e9e7b5830073ab11eed3c",
     "DestinationPath":"config/indium-renderer.properties"
   },{
     "File":"inmis.json",
@@ -1065,8 +1145,8 @@
     "DestinationPath":"config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
   },{
     "File":"inventoryprofiles.json",
-    "Size":218,
-    "Hash":"9b341cc52f20e275ea174516ee57a50346801ee8",
+    "Size":295,
+    "Hash":"403fef6f4917603db3f837b253fc225f9fdad8eb",
     "DestinationPath":"config/inventoryprofilesnext/inventoryprofiles.json"
   },{
     "File":"lambdabettergrass.toml",
@@ -1075,8 +1155,8 @@
     "DestinationPath":"config/lambdabettergrass.toml"
   },{
     "File":"lambdynlights.toml",
-    "Size":3922,
-    "Hash":"f507ee754aac9d82e8a56a82b45d6611bb63da5f",
+    "Size":4423,
+    "Hash":"a31310ea82ed7e77b2ee3d2d46ac2d31e482ec94",
     "DestinationPath":"config/lambdynlights.toml"
   },{
     "File":"libgui.json5",
@@ -1145,8 +1225,8 @@
     "DestinationPath":"config/respawnablepets.json"
   },{
     "File":"config.json5",
-    "Size":6064,
-    "Hash":"a135cca361c1be6f49351b19276603bcdff9855e",
+    "Size":6202,
+    "Hash":"348d67e751537fee85e37064b869d5807d5aef77",
     "DestinationPath":"config/roughlyenoughitems/config.json5"
   },{
     "File":"skinlayers.json",
@@ -1171,17 +1251,17 @@
   },{
     "File":"occlusion.properties",
     "Size":1251,
-    "Hash":"79ad87f93dc085addd2389f9306dcfdc7c49f0f0",
+    "Hash":"1679539b1b37532a4362327286cd48a70f7112bb",
     "DestinationPath":"config/sound_physics_remastered/occlusion.properties"
   },{
     "File":"reflectivity.properties",
     "Size":1254,
-    "Hash":"45a8912ea313ba5a137d4a22d7da3c3b65ce1486",
+    "Hash":"a2590682a94e5e647eab65e841b2eddb6e2fca6c",
     "DestinationPath":"config/sound_physics_remastered/reflectivity.properties"
   },{
     "File":"soundphysics.properties",
     "Size":770,
-    "Hash":"da9b06373dadef970b8048c434b10e9a88f78709",
+    "Hash":"e8b099c5f17e67087d8ecd91c7a5bd8709ed8ef1",
     "DestinationPath":"config/sound_physics_remastered/soundphysics.properties"
   },{
     "File":"stendhal.properties",
@@ -1201,7 +1281,7 @@
   },{
     "File":"trade_cycling.properties",
     "Size":74,
-    "Hash":"1fe212e35aabce22de80797c5e8f67635ffec710",
+    "Hash":"c3e94fa27ce22610df11d83d649a5bddc5fea831",
     "DestinationPath":"config/trade_cycling/trade_cycling.properties"
   },{
     "File":"translated_server.json",
@@ -1226,7 +1306,7 @@
   },{
     "File":"voicechat-client.properties",
     "Size":894,
-    "Hash":"4c4e6ecf11c65aedce561eb6f56b5f1bbb63f159",
+    "Hash":"6495547f8d4bc9a09d3e5bb82b78548c914055b6",
     "DestinationPath":"config/voicechat/voicechat-client.properties"
   },{
     "File":"voicechat-server.properties",
@@ -1301,7 +1381,7 @@
   },{
     "File":"options.txt",
     "Size":5028,
-    "Hash":"890297f0c693432d6a735f9f13c299ec7628ee29",
+    "Hash":"b409530668cb0a951ae5585787720f68a5e99d3c",
     "DestinationPath":"options.txt"
   },{
     "File":"servers.dat",
