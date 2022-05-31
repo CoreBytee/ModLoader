@@ -10,7 +10,7 @@ Import("ga.CubicInc.SMP.JavaRuntime.Runtime.Spoof")()
 Import("ga.CubicInc.SMP.JavaRuntime.Helpers.HideWindow")()
 
 if Import("ga.CubicInc.SMP.JavaRuntime.Helpers.ReleaseHelper")() ~= require("fs").readFileSync(TypeWriter.ExeFolder .. "/Library.version") then
-    Import("ga.CubicInc.SMP.JavaRuntime.Helpers.Popup")("Please update your modloader!")
+    Import("ga.CubicInc.SMP.JavaRuntime.Helpers.Popup")("Please update your modloader!\nThis can be done by downloading the installer and running it.\n!!!DO NOT REUSE A ALREADY USED INSTALLER!!!")
     process:exit()
 end
 

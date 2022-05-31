@@ -29,14 +29,10 @@ function ModSyncer:SyncRemote()
             )
         end
         if not LocalHash then
-            TypeWriter.Logger.Error("Hash for " .. RemoteHash.File .. " not found")
-            TypeWriter.Logger.Error(RemoteHash.DestinationPath)
-            TypeWriter.Logger.Error()
+            TypeWriter.Logger.Error("Hash for " .. RemoteHash.DestinationPath .. " not found")
             AddAction()
         elseif not FS.existsSync(GameFolder .. "/" .. LocalHash.DestinationPath) then
-            TypeWriter.Logger.Error("File " .. LocalHash.File .. " not found")
-            TypeWriter.Logger.Error(LocalHash.DestinationPath)
-            TypeWriter.Logger.Error()
+            TypeWriter.Logger.Error("File " .. LocalHash.DestinationPath .. " not found")
             AddAction()
         end
     end

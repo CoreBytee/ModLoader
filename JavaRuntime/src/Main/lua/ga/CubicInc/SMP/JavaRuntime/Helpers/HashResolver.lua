@@ -11,6 +11,14 @@ end
 
 function HashResolver:ResolveRemoteHashes()
     if self.Hashes.Remote then return end
+
+    local LocalHashFile = GameFolder .. "/CubicLoader/LocalHashes.json"
+    if FS.existsSync(LocalHashFile) then
+        TypeWriter.Logger.Info("Found localhashfile")
+        self.Hashes.Remote = Json.parse(FS.readFileSync(LocalHashFile))
+        return
+    end
+
     local _, Hashes = JsonRequest(
         "GET",
         "https://raw.githubusercontent.com/CoreBytee/ModLoader/main/Meta/Hashes.json"
