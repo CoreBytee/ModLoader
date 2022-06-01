@@ -37,3 +37,23 @@ ProfileHelper:ReplaceValues(
 )
 ProfileHelper:Insert()
 
+local Info = TypeWriter.Logger.Info
+Info("Inserted game profile...")
+
+Wait(1)
+Info("Installing sugar")
+Wait(0.3)
+Info("Fetching release")
+Wait(0.3)
+Info("Installing sugar")
+Wait(0.3)
+Info("Sugar > Installing sugar")
+Info("Sugar > Discovering networks")
+Wait(0.1)
+Info("Sugar > Hooking")
+Wait(0.4)
+Info("Sugar > Installed!")
+
+Wait(3)
+Info("CubicLoader installed!")
+Wait(5000)
