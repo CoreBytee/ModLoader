@@ -5,7 +5,7 @@ local Hash = require("sha1")
 local Json = require("json")
 local PathLibrary = require("path")
 local Logger = TypeWriter.Logger
-
+string.split = require("Extensions").string.split
 
 local MetaGameFolder = TypeWriter.Here .. "/Meta/GameFolder/"
 local GameFolder = FS.readFileSync(TypeWriter.ExeFolder .. "/TestingGameFolder.Path")

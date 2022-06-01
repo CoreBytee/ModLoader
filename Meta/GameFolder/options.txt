@@ -1,6 +1,6 @@
 version:2975
 toggleCrawl:false
-quilt_available_resource_packs:["file/3D Backpacks.zip","file/OURPACKY.zip","file/VanillaTweaks_r905701.zip","file/infested-stone-resources-1-17-v2-0.zip","programer_art","vanilla","file/Copper Legacy Pack.zip","computercraft/classic","computercraft/overhaul","illuminations/lowerres","illuminations/pixelaccurate","lambdabettergrass/default","Black Icons","Classic Icons","White Icons","file/Xray_Ultimate_1.18_v4.2.0.zip"]
+quilt_available_resource_packs:["file/3D Backpacks.zip","file/OURPACKY.zip","file/VanillaTweaks_r905701.zip","file/infested-stone-resources-1-17-v2-0.zip","programer_art","vanilla","file/Copper Legacy Pack.zip","computercraft/classic","computercraft/overhaul","illuminations/lowerres","illuminations/pixelaccurate","lambdabettergrass/default","Black Icons","Classic Icons","White Icons","file/Xray_Ultimate_1.18_v4.2.0.zip","enchancement/alternate_dash"]
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -31,7 +31,7 @@ simulationDistance:8
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
-maxFps:260
+maxFps:80
 difficulty:2
 graphicsMode:1
 ao:2
@@ -113,6 +113,7 @@ key_key.hotbar.9:key.keyboard.9
 key_key.ellemes_container_lib.config:key.keyboard.unknown
 key_key.veinmining.activate.desc:key.keyboard.unknown
 key_key.inmis.open_backpack:key.keyboard.b
+key_key.botania_corporea_request:key.keyboard.c
 key_key.trade_cycling.cycle_trades:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
@@ -141,7 +142,7 @@ soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.0
 soundCategory_block:1.0
-soundCategory_hostile:1.0
+soundCategory_hostile:0.2535211
 soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
