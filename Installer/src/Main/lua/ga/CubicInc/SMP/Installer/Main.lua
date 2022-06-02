@@ -54,6 +54,6 @@ Info("Sugar > Hooking")
 Wait(0.4)
 Info("Sugar > Installed!")
 
-Wait(3)
+Wait(0.3)
 Info("CubicLoader installed!")
 Wait(5000)
