@@ -319,11 +319,6 @@
     "Hash":"44017d4760dd70674c87e6344d8e8046d0b94190",
     "DestinationPath":"mods/kentucky-fried-axolotls-1.0.1-1.18.2.jar"
   },{
-    "File":"keymap-0.4.1-beta.0+1.18.1-fabric.jar",
-    "Size":438938,
-    "Hash":"93fed52de24c1fa81cc9820f9ef013173778271d",
-    "DestinationPath":"mods/keymap-0.4.1-beta.0+1.18.1-fabric.jar"
-  },{
     "File":"krypton-0.1.9.jar",
     "Size":132286,
     "Hash":"823db6f1661d0f762dbf75a4a7c2972c460ba4a8",
@@ -846,7 +841,7 @@
   },{
     "File":"last_working_configs_backup.zip",
     "Size":41051,
-    "Hash":"9649e08cdf0ebd187e678720a6e7e5d6cc1cbec6",
+    "Hash":"7588728ae6e333eabaf3a753bd325b3e3849c1c4",
     "DestinationPath":"config/byg/backups/last_working_configs_backup.zip"
   },{
     "File":"biomepedia.json5",
@@ -1146,7 +1141,7 @@
   },{
     "File":"indigo-renderer.properties",
     "Size":258,
-    "Hash":"60797ad6159d5876b3b5f1afaf303432183afd87",
+    "Hash":"e2954242b2ca9047ddc8c3138bd4c89bcfccb027",
     "DestinationPath":"config/fabric/indigo-renderer.properties"
   },{
     "File":"ferritecore.mixin.properties",
@@ -1176,12 +1171,12 @@
   },{
     "File":"illuminations.properties",
     "Size":3761,
-    "Hash":"700fd925967ce749ed6c6d18a05998eaf2293621",
+    "Hash":"ecfaa19dda19a2af4d433ac405968d146d08a1b1",
     "DestinationPath":"config/illuminations.properties"
   },{
     "File":"indium-renderer.properties",
     "Size":256,
-    "Hash":"2630322ffca5df2d92b13479d18db6870904097e",
+    "Hash":"10c96166baaf582c6f5faaa8d9b326762d1eb0eb",
     "DestinationPath":"config/indium-renderer.properties"
   },{
     "File":"inmis.json",
@@ -1210,8 +1205,8 @@
     "DestinationPath":"config/lambdabettergrass.toml"
   },{
     "File":"lambdynlights.toml",
-    "Size":4467,
-    "Hash":"6ef8fa3d7b5b4992234ff2c087f235d850630ba8",
+    "Size":4725,
+    "Hash":"0b4b5fd86a985548d060d11aa2b0718c7e594240",
     "DestinationPath":"config/lambdynlights.toml"
   },{
     "File":"libgui.json5",
@@ -1285,8 +1280,8 @@
     "DestinationPath":"config/respawnablepets.json"
   },{
     "File":"config.json5",
-    "Size":6386,
-    "Hash":"f3d9ae39f83977fd59ce21bc0a7c38f58268df74",
+    "Size":6508,
+    "Hash":"499bf0bcdd0fea6f3389d43458bec77b0650830e",
     "DestinationPath":"config/roughlyenoughitems/config.json5"
   },{
     "File":"skinlayers.json",
@@ -1311,17 +1306,17 @@
   },{
     "File":"occlusion.properties",
     "Size":1251,
-    "Hash":"f3e836f794b4b6640c8e3c3baed9224990835fd6",
+    "Hash":"a69b7dbd94085fd1775cef7dcc1f72f7b0b2cb06",
     "DestinationPath":"config/sound_physics_remastered/occlusion.properties"
   },{
     "File":"reflectivity.properties",
     "Size":1254,
-    "Hash":"fd83651301d7d40cccdbe5e4543f2520b8d0bcfc",
+    "Hash":"0345a048940f4bef06c7f313987ff59742ed10ca",
     "DestinationPath":"config/sound_physics_remastered/reflectivity.properties"
   },{
     "File":"soundphysics.properties",
     "Size":770,
-    "Hash":"2c5394b26cdac02932cc8b88a7a73432a8f971b9",
+    "Hash":"a8e35b2ac851cbdff00e2a547312fd2aaf3abd14",
     "DestinationPath":"config/sound_physics_remastered/soundphysics.properties"
   },{
     "File":"stendhal.properties",
@@ -1341,7 +1336,7 @@
   },{
     "File":"trade_cycling.properties",
     "Size":74,
-    "Hash":"acc37a547f6851566eff32fa169761688c3747c1",
+    "Hash":"1b09508677b1b8f75ee96472d1f40f8230f1283e",
     "DestinationPath":"config/trade_cycling/trade_cycling.properties"
   },{
     "File":"translated_server.json",
@@ -1360,13 +1355,13 @@
     "DestinationPath":"config/veinmining.json5"
   },{
     "File":"username-cache.json",
-    "Size":155,
-    "Hash":"6e2612da9ba406ed81fecb0283bd07f2232ab0bd",
+    "Size":356,
+    "Hash":"d5e7b517569280bcd97a27ac8a92695afe7bb7e6",
     "DestinationPath":"config/voicechat/username-cache.json"
   },{
     "File":"voicechat-client.properties",
-    "Size":894,
-    "Hash":"996bba79c3ca85933c82e5d406bfc83bcc686047",
+    "Size":897,
+    "Hash":"9d681ebc7b448ac8eccdb736d91c30256ec0c375",
     "DestinationPath":"config/voicechat/voicechat-client.properties"
   },{
     "File":"voicechat-server.properties",
@@ -1440,8 +1435,8 @@
     "DestinationPath":"resourcepacks/infested-stone-resources-1-17-v2-0.zip"
   },{
     "File":"options.txt",
-    "Size":5112,
-    "Hash":"1ba49e5252e985b1ff2ca4d5c6668b200468114d",
+    "Size":5169,
+    "Hash":"fc42bf152b9bc77afe42378581ce10367c62b588",
     "DestinationPath":"options.txt"
   },{
     "File":"servers.dat",
