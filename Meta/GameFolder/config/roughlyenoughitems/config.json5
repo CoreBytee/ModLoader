@@ -12,7 +12,9 @@
 			"{data:{Count:1b,id:\"minecraft:netherite_pickaxe\",tag:{Damage:0},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"minecraft:anvil\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"enchancement:grapple\",lvl:1s}]},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:cobbled_deepslate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"minecraft:cobbled_deepslate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:oak_planks\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:deepslate_gold_ore\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		// Declares whether cheating mode is on.
 		"cheating": true,

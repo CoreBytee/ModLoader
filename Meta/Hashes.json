@@ -169,6 +169,11 @@
     "Hash":"7bf2aeeabd3ff6fe6342ea6ebd3beafb3caa6edc",
     "DestinationPath":"mods/dawn-3.3.1.jar"
   },{
+    "File":"debugify-1.11.0-fabric-1.18.2.jar",
+    "Size":313412,
+    "Hash":"f9af715e715019850d0913e45d308fb96af83fdc",
+    "DestinationPath":"mods/debugify-1.11.0-fabric-1.18.2.jar"
+  },{
     "File":"Decorative+Blocks-fabric-1.18.2-2.1.0.jar",
     "Size":460743,
     "Hash":"1917cf81209d6c87438fb0db16e5ca1916cd9bca",
@@ -841,7 +846,7 @@
   },{
     "File":"last_working_configs_backup.zip",
     "Size":41051,
-    "Hash":"7588728ae6e333eabaf3a753bd325b3e3849c1c4",
+    "Hash":"480510e85a227345913a07c9272d3d85b36ea17a",
     "DestinationPath":"config/byg/backups/last_working_configs_backup.zip"
   },{
     "File":"biomepedia.json5",
@@ -1099,6 +1104,16 @@
     "Hash":"1ef0ef0ecc588a6369cf892df51ee1494313f430",
     "DestinationPath":"config/dawn/features.json"
   },{
+    "File":"debugify-descriptions.json",
+    "Size":5858,
+    "Hash":"646bfdb60f02e8dbbb942814f1899621cc174100",
+    "DestinationPath":"config/debugify-descriptions.json"
+  },{
+    "File":"debugify.json",
+    "Size":1588,
+    "Hash":"d7bd4a7bff5bcf373928177501aeca650d31650f",
+    "DestinationPath":"config/debugify.json"
+  },{
     "File":"effective.json",
     "Size":153,
     "Hash":"9686901a69e349abc2acba544b05201f82f9d3ea",
@@ -1141,7 +1156,7 @@
   },{
     "File":"indigo-renderer.properties",
     "Size":258,
-    "Hash":"e2954242b2ca9047ddc8c3138bd4c89bcfccb027",
+    "Hash":"6ddd138e030a68631f295eec24014a8e4868c3f6",
     "DestinationPath":"config/fabric/indigo-renderer.properties"
   },{
     "File":"ferritecore.mixin.properties",
@@ -1171,12 +1186,12 @@
   },{
     "File":"illuminations.properties",
     "Size":3761,
-    "Hash":"ecfaa19dda19a2af4d433ac405968d146d08a1b1",
+    "Hash":"9ce704358ce82345f11138f21dc41c574c2a952f",
     "DestinationPath":"config/illuminations.properties"
   },{
     "File":"indium-renderer.properties",
     "Size":256,
-    "Hash":"10c96166baaf582c6f5faaa8d9b326762d1eb0eb",
+    "Hash":"bd687a16afc9e7644d3dd924140cb2ede86f19b6",
     "DestinationPath":"config/indium-renderer.properties"
   },{
     "File":"inmis.json",
@@ -1280,8 +1295,8 @@
     "DestinationPath":"config/respawnablepets.json"
   },{
     "File":"config.json5",
-    "Size":6508,
-    "Hash":"499bf0bcdd0fea6f3389d43458bec77b0650830e",
+    "Size":6748,
+    "Hash":"772b3462ae4ec7f80aca91cb3fc28cf515f9eb30",
     "DestinationPath":"config/roughlyenoughitems/config.json5"
   },{
     "File":"skinlayers.json",
@@ -1306,17 +1321,17 @@
   },{
     "File":"occlusion.properties",
     "Size":1251,
-    "Hash":"a69b7dbd94085fd1775cef7dcc1f72f7b0b2cb06",
+    "Hash":"3c5f61c3c03b085cd3530d184106f9457d013fc9",
     "DestinationPath":"config/sound_physics_remastered/occlusion.properties"
   },{
     "File":"reflectivity.properties",
     "Size":1254,
-    "Hash":"0345a048940f4bef06c7f313987ff59742ed10ca",
+    "Hash":"ca939b38b2cd981543833ff289dc3ffd1f19a017",
     "DestinationPath":"config/sound_physics_remastered/reflectivity.properties"
   },{
     "File":"soundphysics.properties",
     "Size":770,
-    "Hash":"a8e35b2ac851cbdff00e2a547312fd2aaf3abd14",
+    "Hash":"444f29ce73fbcfbe1eb5e5c4f427c5b43fed0740",
     "DestinationPath":"config/sound_physics_remastered/soundphysics.properties"
   },{
     "File":"stendhal.properties",
@@ -1336,7 +1351,7 @@
   },{
     "File":"trade_cycling.properties",
     "Size":74,
-    "Hash":"1b09508677b1b8f75ee96472d1f40f8230f1283e",
+    "Hash":"dd73a0aed24f3f796ec0d83797a4bc7d47550356",
     "DestinationPath":"config/trade_cycling/trade_cycling.properties"
   },{
     "File":"translated_server.json",
@@ -1354,14 +1369,9 @@
     "Hash":"c1b305e07b8d7a83c5bb7cd01eed6cfb77b38c38",
     "DestinationPath":"config/veinmining.json5"
   },{
-    "File":"username-cache.json",
-    "Size":356,
-    "Hash":"d5e7b517569280bcd97a27ac8a92695afe7bb7e6",
-    "DestinationPath":"config/voicechat/username-cache.json"
-  },{
     "File":"voicechat-client.properties",
     "Size":897,
-    "Hash":"9d681ebc7b448ac8eccdb736d91c30256ec0c375",
+    "Hash":"d4d0124a47a9745d4e9fb1ce7b0b418aaa297f39",
     "DestinationPath":"config/voicechat/voicechat-client.properties"
   },{
     "File":"voicechat-server.properties",
