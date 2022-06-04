@@ -130,6 +130,9 @@ mode = "fancy"
 			[light_sources.settings.entities.additionaladditions]
 				glow_stick = true
 
+			[light_sources.settings.entities.automobility]
+				automobile = true
+
 			[light_sources.settings.entities.blast]
 				dirt_trigger_bomb = true
 				dirt_bomb = true
