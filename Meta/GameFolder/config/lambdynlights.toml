@@ -125,6 +125,7 @@ mode = "fancy"
 				ghost = true
 				blightbat = true
 				mushroom_trader = true
+				lightning_bottle = true
 				tumbleweed = true
 
 			[light_sources.settings.entities.additionaladditions]
