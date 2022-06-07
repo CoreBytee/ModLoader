@@ -244,6 +244,11 @@
     "Hash":"da24ec26c17592e12668ef317c3efea80eb75e62",
     "DestinationPath":"mods/friendsandfoes-fabric-mc1.18.2-1.4.0.jar"
   },{
+    "File":"friendsandfoes-quilt-mc1.18.2-1.4.3.jar",
+    "Size":1155802,
+    "Hash":"cb158743306cd59e990d07cf3056043a8d77c11d",
+    "DestinationPath":"mods/friendsandfoes-quilt-mc1.18.2-1.4.3.jar"
+  },{
     "File":"geckolib-fabric-1.18-3.0.42.jar",
     "Size":3580353,
     "Hash":"836036b97b715a5f4f7fb5f11f3842f314308ec4",
