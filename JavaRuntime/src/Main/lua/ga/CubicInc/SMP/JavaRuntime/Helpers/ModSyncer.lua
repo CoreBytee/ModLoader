@@ -7,6 +7,7 @@ local RawUrl = "https://raw.githubusercontent.com/CoreBytee/ModLoader/main/Meta/
 local FS = require("fs")
 local Mkdirp = require("coro-fs").mkdirp
 local DirName = require("path").dirname
+local ResolvePath = require("path").resolve
 
 function ModSyncer:initialize()
     self.HashResolver = Import("ga.CubicInc.SMP.JavaRuntime.Helpers.HashResolver"):new()
@@ -63,6 +64,14 @@ local function CreateDirForPath(Path)
     return Mkdirp(DirName(Path))
 end
 
+local function CollapseEmpty(Path)
+    if #FS.readdirSync(Path) == 0 then
+        TypeWriter.Logger.Error("Empty %s", Path)
+        FS.rmdirSync(Path)
+        CollapseEmpty(ResolvePath(Path, "../"))
+    end
+end
+
 local ActionRunners = {
     Download = function (Data)
         TypeWriter.Logger.Info("Downloading " .. Data.Url)
@@ -77,7 +86,9 @@ local ActionRunners = {
     end,
     Remove = function (Data)
         TypeWriter.Logger.Info("Removing " .. Data.Path)
-        return FS.unlinkSync(Data.Path)
+        FS.unlinkSync(Data.Path)
+        CollapseEmpty(DirName(Data.Path))
+        return 
     end
 }
 
