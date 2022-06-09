@@ -9,10 +9,10 @@
     "Hash":"8b03876962eaf9167e03b8c872a4c620a6e9d935",
     "DestinationPath":"mods/c2me-fabric-mc1.19-0.2.0+alpha.8.0.jar"
   },{
-    "File":"creeper-spores-1.8.0.jar",
+    "File":"creeper-spores-1.8.0.jar.old",
     "Size":67146,
-    "Hash":"acfec8013d8092a6807100939c02211aa4c82809",
-    "DestinationPath":"mods/creeper-spores-1.8.0.jar"
+    "Hash":"ddbbc98114b0d2bdb9cdbe0006c0bed808547071",
+    "DestinationPath":"mods/creeper-spores-1.8.0.jar.old"
   },{
     "File":"effective-1.2.2.jar",
     "Size":1722841,
@@ -111,6 +111,6 @@
   },{
     "File":"servers.dat",
     "Size":202,
-    "Hash":"2e5fa6c2c3e7fc4144866ee8da45f9f8d0d771c9",
+    "Hash":"ebbc2408bc4c4f3edfa0549ad932d26cab344986",
     "DestinationPath":"servers.dat"
   }]
