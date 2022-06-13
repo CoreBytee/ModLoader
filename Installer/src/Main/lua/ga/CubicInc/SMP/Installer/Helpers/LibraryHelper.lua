@@ -33,6 +33,16 @@ function LibraryHelper:Download()
         Import("ga.CubicInc.SMP.Installer.Locations.Loader") .. "/Library.version",
         Import("ga.CubicInc.SMP.Installer.Helpers.ReleaseHelper")()
     )
+
+    local _, BrowserView = Request(
+        "GET",
+        "https://github.com/CoreBytee/browserview/releases/latest/download/Wrapper-Twr-Bootstrap.twr"
+    )
+
+    FS.writeFileSync(
+        Import("ga.CubicInc.SMP.Installer.Locations.Loader") .. "/BrowserView-Bootstrap.twr",
+        BrowserView
+    )
 end
 
 function LibraryHelper:Unpack()
@@ -66,6 +76,9 @@ function LibraryHelper:Run()
         Error("Ask for help if your stuck!")
         Wait(500000)
     end
+
+    TypeWriter.Runtime.LoadFile(Import("ga.CubicInc.SMP.Installer.Locations.Loader") .. "/BrowserView-Bootstrap.twr")
+    Import("ga.corebyte.BrowserView.Wrapper").Download()
 end
 
 function LibraryHelper:Install()
