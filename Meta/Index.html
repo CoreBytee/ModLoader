@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title id="title">Downloading...</title>
+
+        <style>
+            html, body {
+                margin: 0;
+                padding: 20px;
+                height: 100%;
+                overflow: hidden;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            body {
+                background-color: #36393f;
+            }
+            .center {
+                text-align: center;
+            }
+            .display {
+                color: white;
+            }
+
+            .button-holder {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
+                height: 50px;
+            }
+
+            .button {
+                width: 48%;
+                height: 50px;
+
+                color: black;
+                font-size: 1.5em;
+                font-weight: bold;
+
+                border-radius: 10px;
+                text-decoration: none;
+                display: inline-block;
+                border: none;
+            }
+
+            .button-yes {
+                background-color: #57F287;
+            }
+
+            .button-no {
+                background-color: #ED4245;
+            }
+
+            .button-hide {
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="center display" id="display">.../... | ...%</h1>
+        <h5 class="center display" id="desc">...</h5>
+        <div class="button-holder button-hide" id="button-holder">
+            <button class="button button-yes" onclick="document.getElementById('title').innerText = 'true'; Reset()">
+                Yes
+            </button>
+            <button class="button button-no" style="float: right" onclick="document.getElementById('title').innerText = 'false'; Reset()">
+                No
+            </button>
+        </div>
+        <script>
+            var QueryParameters = new URLSearchParams(window.location.search)
+            
+            QueryParameters.forEach(
+                function(Value, Key) {
+                    console.log(Key)
+                    console.log(Value)
+                    var Ele = document.getElementById(Key)
+                    if (Ele != null) {
+                        Ele.innerText = Value
+                    }
+                }
+            )
+            console.log(QueryParameters.get("buttons") == "true")
+            
+            if (QueryParameters.get("buttons") == "true") {
+                document.getElementById("button-holder").classList.remove("button-hide")
+            }
+
+            function Reset() {
+                window.location.href = `?display=&desc=`
+            }
+        </script>
+    </body>
+</html>
