@@ -19,10 +19,12 @@ function ModSyncer:SyncRemote()
     local RemoteHashes = self.HashResolver:GetRemoteHashes()
     for Index, RemoteHash in pairs(RemoteHashes) do
         local LocalHash = FindTableWithKey(LocalHashes, "Hash", RemoteHash.Hash)
+        p(RemoteHash)
         local function AddAction()
             table.insert(
                 self.Actions,
                 {
+                    DestPath = RemoteHash.DestinationPath,
                     Type = "Download",
                     Url = RawUrl .. RemoteHash.DestinationPath,
                     Path = GameFolder .. "/" .. RemoteHash.DestinationPath
@@ -96,14 +98,51 @@ function ModSyncer:ExecuteActions()
     local Complete = 0
     local ActionCount = #self.Actions
     if ActionCount ~= 0 then
-        local Window = Import("ga.corebyte.BrowserView.Wrapper").Download().LoadAll().NewWindow()
+        local Window = Import("ga.corebyte.BrowserView.Wrapper").Download().LoadAll().NewWindow(
+            {
+                Options = {
+                    frame = false
+                }
+            }
+        )
         Window:Start()
-        Window:LoadFile()
+        Window:SetSize(400, 200)
+        Window:SetAlwaysOnTop(true)
+        Window:SetSkipTaskbar(true)
+        Window:Center()
+        Window:SetMovable(false)
+        Window:SetResizable(false)
+        Window:SetClosable(false)
+        local function Refresh(D)
+            local Fac = Complete / ActionCount
+            local Per = Fac * 100
+            Window:LoadFile(
+                "C:/Users/Thijmen/Documents/Github/Self/ModLoader/.TypeWriter/Build/Index.html",
+                {
+                    query = {
+                        a = tostring(Complete),
+                        t = tostring(ActionCount),
+                        p = tostring(Per),
+                        d = D
+                    }
+                }
+            )
+        end
+        Refresh("")
         for Index, Action in pairs(self.Actions) do
+            if Action.Type == "Download" then
+                Refresh(string.format("Downloading %s", Action.DestPath))
+            else
+                Refresh(string.format("Removing %s", Action.Path))
+            end
+            
             ActionRunners[Action.Type](Action)
             TypeWriter.Logger.Info("%s/%s", Complete + 1, ActionCount)
             Complete = Complete + 1
         end
+        Refresh("Done syncing")
+        Wait(5)
+        Window:Stop()
     end
     
 end
