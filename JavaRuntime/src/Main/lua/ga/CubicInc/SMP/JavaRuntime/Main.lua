@@ -4,6 +4,7 @@ TypeWriter.Logger.RegisterLogFile(TypeWriter.ExeFolder .. "/JavaRuntime.log")
 
 TypeWriter.Logger.Info(table.concat(TypeWriter.Arguments, " "))
 
+TypeWriter.Runtime.LoadFile(Import("ga.CubicInc.SMP.JavaRuntime.Locations.GameFolder") .. "/CubicLoader/BrowserView-Bootstrap.twr")
 
 Import("ga.CubicInc.SMP.JavaRuntime.Runtime.Spoof")()
 
