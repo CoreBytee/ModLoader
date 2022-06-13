@@ -95,11 +95,17 @@ local ActionRunners = {
 function ModSyncer:ExecuteActions()
     local Complete = 0
     local ActionCount = #self.Actions
-    for Index, Action in pairs(self.Actions) do
-        ActionRunners[Action.Type](Action)
-        TypeWriter.Logger.Info("%s/%s", Complete + 1, ActionCount)
-        Complete = Complete + 1
+    if ActionCount ~= 0 then
+        local Window = Import("ga.corebyte.BrowserView.Wrapper").Download().LoadAll().NewWindow()
+        Window:Start()
+        Window:LoadFile()
+        for Index, Action in pairs(self.Actions) do
+            ActionRunners[Action.Type](Action)
+            TypeWriter.Logger.Info("%s/%s", Complete + 1, ActionCount)
+            Complete = Complete + 1
+        end
     end
+    
 end
 
 function ModSyncer:Sync()
