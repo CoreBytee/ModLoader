@@ -98,34 +98,19 @@ function ModSyncer:ExecuteActions()
     local Complete = 0
     local ActionCount = #self.Actions
     if ActionCount ~= 0 then
-        local Window = Import("ga.corebyte.BrowserView.Wrapper").Download().LoadAll().NewWindow(
-            {
-                Options = {
-                    frame = false
-                }
-            }
-        )
-        Window:Start()
-        Window:SetSize(400, 200)
-        Window:SetAlwaysOnTop(true)
-        Window:SetSkipTaskbar(true)
-        Window:Center()
-        Window:SetMovable(false)
-        Window:SetResizable(false)
-        Window:SetClosable(false)
+        
         local function Refresh(D)
             local Fac = Complete / ActionCount
             local Per = Fac * 100
-            Window:LoadFile(
-                "C:/Users/Thijmen/Documents/Github/Self/ModLoader/.TypeWriter/Build/Index.html",
-                {
-                    query = {
-                        a = tostring(Complete),
-                        t = tostring(ActionCount),
-                        p = tostring(Per),
-                        d = D
-                    }
-                }
+            ResetWindow(
+                string.format(
+                    "Syncing %d/%d (%d%%)",
+                    Complete,
+                    ActionCount,
+                    Per
+                ),
+                D,
+                false
             )
         end
         Refresh("")
@@ -141,8 +126,6 @@ function ModSyncer:ExecuteActions()
             Complete = Complete + 1
         end
         Refresh("Done syncing")
-        Wait(5)
-        Window:Stop()
     end
     
 end
